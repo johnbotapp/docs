@@ -31,6 +31,14 @@ description: >-
 | ---------------------- | ---------------------------- | ------- |
 | {panel.ticket\_number} | Affiche le numéro du ticket. | 10      |
 
+## Variable du Ticket
+
+| Variable               | Description                       | Exemple    |
+| ---------------------- | --------------------------------- | ---------- |
+| {ticket}               | Mentionne le ticket.              | #ticket    |
+| {ticket.id}            | Affiche l'identifiant du ticket.  | 10         |
+| {ticket.name}          | Affiche le nom du ticket.         | Ticket     |
+
 ## Variable de Niveaux
 
 | Variable      | Description                                                                     | Exemple        |
