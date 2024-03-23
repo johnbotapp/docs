@@ -33,11 +33,11 @@ description: >-
 
 ## Variable du Ticket
 
-| Variable               | Description                       | Exemple    |
-| ---------------------- | --------------------------------- | ---------- |
-| {ticket}               | Mentionne le ticket.              | #ticket    |
-| {ticket.id}            | Affiche l'identifiant du ticket.  | 10         |
-| {ticket.name}          | Affiche le nom du ticket.         | Ticket     |
+| Variable      | Description                      | Exemple            |
+| ------------- | -------------------------------- | ------------------ |
+| {ticket}      | Mentionne le ticket.             | #ticket            |
+| {ticket.id}   | Affiche l'identifiant du ticket. | 959269961572962314 |
+| {ticket.name} | Affiche le nom du ticket.        | Ticket             |
 
 ## Variable de Niveaux
 
