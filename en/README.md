@@ -8,6 +8,6 @@ coverY: 0
 
 # Home
 
-## :books: John-Bot documentation
+## :books: John-Bot documentation <a href="#home" id="home"></a>
 
 The documentation for John-Bot in English is not available yet, but it's only a matter of time!
