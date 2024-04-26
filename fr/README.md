@@ -1,23 +1,29 @@
 ---
 description: >-
-  Vous ne comprenez pas bien les diverses fonctionnalités de John-Bot ? Notre
-  documentation est là pour vous aider !
-cover: .gitbook/assets/Bannière.png
+  Vous avez des questionnements sur lors de l'utilisation de John-Bot ? La documentation vous apporte une réponse. Découvrez John-Bot et le fonctionnement de sa documentation.
+cover: .gitbook/assets/banner.png
 coverY: 0
 ---
 
-# Accueil
-
-## :books: La documentation de John-Bot
-
-Bienvenue sur la documentation de John-Bot ! Elle est là dans le but de vous familiariser avec les diverses fonctionnalités que propose John-Bot.\
-\
-La documentation peut ne pas répondre à toutes vos questions, si c'est le cas n'hésitez, pas à contacter l'équipe de John-Bot via notre adresse e-mail de contact [**team@johnbot.app**](mailto:team@johnbot.app) ou bien via notre serveur [**Discord**](https://discord.gg/abePbS7QKY)**.**
-
-## :rocket: Ajouter John-Bot à votre serveur Discord
-
-Pour commencer votre utilisation de John-Bot, vous devez l'inviter sur votre serveur Discord, pour ce faire rendez-vous sur [**la page d'invitation de John-Bot**](https://discord.com/oauth2/authorize?client\_id=958547309728256081\&scope=bot%20applications.commands\&permissions=545460321791). Une fois cela fait, sélectionnez votre serveur Discord, ensuite choisissez les permissions que vous souhaitez accorder à John-Bot, une fois vos permissions choisies cliquez sur **Autoriser**. Voilà ! John-Bot est sur votre serveur Discord et prêt à être utilisé !
-
-{% hint style="info" %}
-Attention ! En fonction des permissions que vous accorderez à John-Bot, certaines commandes ne seront plus utilisables en raison du manque de permission(s).
+{% hint style="warning" %}
+La documentation en cours d'écriture, cela prend du temps ! Si la documentation ne répond pas à votre/vos question(s) venez la/les poser sur le [**serveur support de John-Bot**](https://discord.com/invite/abePbS7QKY) !
 {% endhint %}
+
+# :question: A propos de John-Bot
+**John-Bot est un robot proposé sur la plateforme Discord destiné à faciliter la gestion des serveurs Discord sur lesquels il est présent.** Il propose un grand nombre de fonctionnalités utiles, entre autres un système de ticket, un système de logs, un système d'arrivée & départ, un système de niveaux par experience, un système de giveaways ou encore un système de modération avancé.¹
+
+# :book: La documentation
+La documentation de John-Bot est destinée à vous familiariser avec les diverses fonctionnalités que propose John-Bot. Elle permet de trouver rapidement une réponse écrite aux nombreux questionnements pouvant être rencontrés lors de l'utilisation de John-Bot, plus particulièrement lors de sa configuration.
+Chaque page de la documentation est liée à un tutoriel vidéo. Retrouvez tous les tutoriels officiels via cette playlist YouTube : https://jnbt.xyz/tutorials
+
+# :gear: Fonctionnement
+La documentation est divisée en plusieurs catégories comprenant des pages puis des sous-pages. Ces sous-pages sont divisées en parties voir en sous-parties. Un tel fonctionnement peu paraitre superflu et trop complexe mais permet en fait de trouver en quelques instants la réponse à une question. En effet, vous pouvez vous orienter de plus en plus précisément vers la réponse attendue sans devoir parcourir toute la documentation à la recherche de votre réponse.
+<br/> Certains signes peuvent également vous aider à comprendre rapidement certaines informations :
+* :gem: : option réservée aux membres [John-Bot Premium](https://johnbot.app/premium)
+
+# :no_entry_sign: Limites
+La documentation peut parfois ne pas être en mesure de répondre à l'une de vos questions, le cas échéant, pouvez contacter l'équipe support de John-Bot via le serveur Discord support ou tout autre moyen².
+
+---
+1 : la liste n'est pas exhaustive
+<br/> 2 : voir la page [Contact](./contact.md)
