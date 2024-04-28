@@ -7,12 +7,12 @@
 * [Basic Configurations](guide/base.md)
 
 ## Configuration
-* [Welcome & Farewell](usage/configuration/welcome.md)
-* [Tickets](usage/configuration/tickets.md)
+* [Welcome & Leave](usage/configuration/welcome.md)
+* [Ticketing](usage/configuration/tickets.md)
 * [Auto-moderation](usage/configuration/auto-moderation.md)
-* [Logs](usage/configuration/logs.md)
+* [Logging](usage/configuration/logs.md)
 * [Language](usage/configuration/langue.md)
-* [Levels](usage/configuration/levels.md)
+* [Leveling](usage/configuration/levels.md)
 
 ## Features
 * [Information](usage/fonctionnalites/information.md)

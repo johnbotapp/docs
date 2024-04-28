@@ -5,10 +5,6 @@ cover: .gitbook/assets/banner.png
 coverY: 0
 ---
 
-{% hint style="warning" %}
-The documentation is currently being written, it takes time! If the documentation doesn't answer your question(s), feel free to ask it/them on the [**John-Bot support server**](https://discord.com/invite/abePbS7QKY)!
-{% endhint %}
-
 # :question: About John-Bot
 **John-Bot is a bot offered on the Discord platform designed to facilitate the management of Discord servers where it is present.** It offers a large number of useful features, including a ticket system, a logging system, an arrival & departure system, an experience-based leveling system, a giveaway system, and an advanced moderation system.¹
 

@@ -4,7 +4,7 @@ description: >-
 ---
 
 # :rocket: Introduction
-Si vous souhaitez obtenir des informations sur un serveur, un utilisateur... ou encore la photo ou bannière de n'importe quel utilisateur ou serveur et bien plus, la commandes d'information de John-Bot sont là pour vous ! Découvrez l'intégralité de ces commandes décrites précisement sur cette page.
+Si vous souhaitez obtenir des informations sur un serveur, un utilisateur... ou encore la photo ou bannière de n'importe quel utilisateur ou serveur et bien plus, les commandes d'information de John-Bot sont là pour vous ! Découvrez l'intégralité de ces commandes décrites précisement sur cette page.
 
 # :clipboard: Liste des commandes
 | Commande | Description | Exemple |

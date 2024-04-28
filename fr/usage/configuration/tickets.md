@@ -22,7 +22,7 @@ Tout d'abord, rendez vous sur le tableau de bord de John-Bot par le moyen de vot
 
 ### Accéder aux paramètres
 
-Ensuite, cherchez `Tickets` sur la colonne de droite, sous le logo et la bannière de votre serveur. Vous arrivez à présent sur une page où vous pouvez configurer tous les paramètres de votre serveur relatifs au giveaway et conseulter les transcriptions.
+Ensuite, cherchez `Tickets` sur la colonne de droite, sous le logo et la bannière de votre serveur. Vous arrivez à présent sur une page où vous pouvez configurer tous les paramètres de votre serveur relatifs au système de ticket et consulter les transcriptions.
 
 ### Logs
 
@@ -54,10 +54,10 @@ Pour activer les transcriptions, vous devez d'abord avoir activé les logs des t
 Vous pouvez consulter les transcriptions de deux façons différentes :
 
 * Premièrement, vous pouvez vous rendre sur le tableau de bord puis sur la page `Tickets` et cliquer sur le bouton en haut à droite `Voir les transcriptions`. Vous retrouverez ensuite la liste de toutes les transcriptions stockées pour votre serveur ainsi qu'un moteur de recherche pour vous aider à trouver celle que vous cherchez.
-* Deuxièmement, vous pouvez vous rendre dans le salon de logs des tickets directement sur votre serveur Discord et chercher le message correspondant à la transcription voulue. Vous pouvez ensuite cliquer sur le bouton lié au message `Voir la transcription` et serez redirigé vers le lecteur de John-Bot.
+* Deuxièmement, vous pouvez vous rendre dans le salon de logs des tickets directement sur votre serveur Discord et chercher le message correspondant à la transcription souhaitée. Vous pouvez ensuite cliquer sur le bouton lié au message `Voir la transcription` et serez redirigé vers le lecteur de John-Bot.
 
 {% hint style="info" %}
-Si vous ne trouvez pas la transcription que vous cherchez, c'est qu'elle n'est plus stockée car le message de logs du ticket en question a été supprimé ou que votre ticket remonte avant le 26 janvier 2024. Dans la première situation, rien à faire, votre transcription est définitivement effacée. Dans la seconde situation, il suffit de chercher le message de logs associé au ticket souhaité et de télécharger le fichier .html joint au message et de l'ouvrir dans votre visionneur de fichiers .html. Les navigateurs web (Mozilla Firefox, Microsoft Edge, Opera, Google Chrome...) supporte généralement ce type de fichiers.
+Si vous ne trouvez pas la transcription que vous cherchez, c'est qu'elle n'est plus stockée car le message de logs du ticket en question a été supprimé ou que votre ticket remonte avant le 26 janvier 2024. Dans la première situation, rien à faire, votre transcription est définitivement effacée. Dans la seconde situation, il suffit de chercher le message de logs associé au ticket souhaité, de télécharger le fichier .html joint au message et de l'ouvrir dans votre visionneuse de fichiers .html. Les navigateurs web (Mozilla Firefox, Microsoft Edge, Opera, Google Chrome...) supportent généralement ce type de fichiers.
 {% endhint %}
 
 ### Rôle·s d'exclusion
@@ -171,7 +171,7 @@ La fermeture du ticket au départ du membre permet de fermer automatiquement un 
 Pour rendre votre bouton plus attrayant ou compréhensible, vous pouvez le personnaliser à l'aide des nombreuses options proposées.
 
 * **Label du bouton :** Le label permet de personnaliser le texte affiché sur le bouton. Par défaut, il sera identique au nom du panneau.
-* **Description du bouton** :gem: **:** La description permet de donner plus d'indication à votre bouton. Elle n'est visible que lorsque l'option de menu de sélection est activée. Découvrez comment l'activer sur cette page, dans la section correspondante : ⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️
+* **Description du bouton** :gem: **:** La description permet de donner plus d'indication à votre bouton. Elle n'est visible que lorsque l'option de menu de sélection est activée. Découvrez comment l'activer sur cette page, dans la section correspondante : [Style d'affichage des panneaux](tickets.md#personnalisation)
 * **Émoji du bouton :** L'emoji ou émoticône permet d'illustrer votre bouton. Vous pouvez choisir parmi tous les emojis Discord à l'aide du sélecteur.
 * **Couleur du bouton :** Pour préciser votre bouton, vous pouvez choisir entre les quatre couleurs proposées par Discord : le bleu, le vert, le rouge ou le gris.
 
@@ -273,11 +273,11 @@ Choisissez quels seront les panneaux avec lesquels les membres pourront ouvrir u
 
 ### Envoyer un embed
 
-Une fois votre configuration terminée, vous pouvez publier votre embed en l'envoyant dans le salon défini préalablement. Pour ce faire, cliquez sur le bouton "Envoyer l'embed" associé à l'embed choisi.
+Une fois votre configuration terminée, vous pouvez publier votre embed en l'envoyant dans le salon défini préalablement. Pour ce faire, cliquez sur le bouton `Envoyer l'embed` associé à l'embed choisi.
 
 ## :bookmark\_tabs: Configuration modèle·s
 
-Un modèle est un formulaire qui sera proposé au membre via une pop-up native à Discord pour lui permettre de répondre à jusqu'à 5 questions, pour préciser le sujet du ticket.
+Un modèle est un formulaire qui sera proposé au membre via une pop-up native à Discord pour lui permettre de répondre à jusqu'à 5 questions, pour préciser le sujet du ticket. Les résultats des réponses seront joints à un embed au message d'ouverture du ticket.
 
 ![Exemple de modèle](../../.gitbook/assets/ticket\_modele\_example.png)
 
@@ -310,6 +310,33 @@ Dans ce champ, vous pouvez définir un titre au modèle. Celui-ci permet de vous
 
 #### Configuration des questions
 
+Pour chaque question, vous pouvez personnaliser certains éléments esthétiques et réorganiser vos questions entre elles. Pour créer une nouvelle question, cliquez sur le bouton `+`, situé en dessous de la liste des questions. Pour supprimer une question existante, cliquez sur le bouton rouge `Supprimer` situé en bas à droite de la question correspondante.
+
+* **Label de la zone de texte :** Le label de la zone de texte correspond à la question posée (n°1 sur l'image).
+* **Style de la zone de texte :** En définissant le style de la zone de texte (n°2 sur l'image), choisissez si le membre pourra répondre dans un champ large ou plus court. Cela ne change rien à la limite de caractères qui sera de 1024 pour les deux.
+* **Placeholder de la zone de texte :** Le placeholder est le texte affiché en transparence dans le champ de réponse, pas dessus lequel le membre va écrire (n°3) sur l'image.
+* **Question obligatoire :** Vous pouvez définir si la question doit obligatoirement être remplie par le membre ou s'il pourra soumettre le formulaire sans y répondre (n°4 sur l'image). Si la question n'a pas de réponse, la formule `Aucun Objet` sera à la place de la réponse.
+
+![Exemple de modèle avec les éléments personnalisables mis en évidence](../../.gitbook/assets/ticket_modele_example%20aide.png)
+
+{% hint style="info" %}
+Une fois votre modèle configuré, n'oubliez pas de le lier au panneau de votre choix : [Modèle lié au panneau, configurer un panneau](tickets.md#modèle-lié-au-panneau)
+{% endhint %}
+
+## :wrench: Liste des commandes
+| Commande | Description | Exemple |
+| -------- | ----------- | ------- |
+| /ticket add | Ajoute un membre au ticket. | ![Commande /ticket add](../../.gitbook/assets/ticket_command_add.png) |
+| /ticket claim | Assigne un membre de l'équipe d'assistance au traitement du ticket. | ![Commande /ticket claim](../../.gitbook/assets/ticket_command_claim.png) |
+| /ticket close | Ferme le ticket. | ![Commande /ticket close](../../.gitbook/assets/ticket_command_close.png) |
+| /ticket close-request | Demande la fermeture du ticket. | ![Commande /ticket close-request](../../.gitbook/assets/ticket_command_close%20request.png) |
+| /ticket create | Crée un ticket. | ![Commande /ticket create](../../.gitbook/assets/ticket_command_create.png) |
+| /ticket delete | Supprime un ticket fermé. |  |
+| /ticket open | Ouvre un ticket fermé. | ![Commande /ticket open](../../.gitbook/assets/ticket_command_open.png) |
+| /ticket remove | Retire un membre du ticket. | ![Commande /ticket remove](../../.gitbook/assets/ticket_command_remove.png) |
+| /ticket rename | Renomme le ticket. | ![Commande /ticket rename](../../.gitbook/assets/ticket_command_rename.png) |
+| /ticket transfer | Transfert l'assignation du ticket à un autre membre de l'équipe d'assistance. | ![Commande /ticket transfer](../../.gitbook/assets/ticket_command_transfer.png) |
+| /ticket unclaim | Retire l'assignation du ticket au traitant. | ![Commande /ticket unclaim](../../.gitbook/assets/ticket_command_unclaim.png) |
 
 ---
 1 : Découvrir ce qu'est le Markdown : [Markdown de Texte 101 (Formatage du chat : gras, italique, souligné)](https://support.discord.com/hc/fr/articles/210298617-Markdown-de-Texte-101-Formatage-du-chat-gras-italique-soulign%C3%A9)

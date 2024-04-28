@@ -23,9 +23,9 @@ Tout d'abord, accédez au serveur dans lequel vous souhaitez lancer le giveaway.
 Ensuite, entrez la commande /giveaway create. Vous aurez accès à plusieurs options :
 
 * Vous devez choisir la durée du giveaway, c'est-à-dire le laps de temps qui s'écoulera avant le tirage au sort automatique et l'annonce des résultats.\
-  Pour ce faire, entrez le nombre de seconde·s, de minute·s, d'heure·s ou de jour·s, suivis de l'unité (s pour seconde, min pour minute, h pour heure et d pour jour).
+  Pour ce faire, entrez le nombre de seconde·s, de minute·s, d'heure·s ou de jour·s, suivis de l'unité (`s` pour seconde, `min` pour minute, `h` pour heure et `d` pour jour).
 * Vous devez choisir le nombre de gagnants qui seront sélectionnés pour recevoir la récompense mise en jeu. Entrez simplement un nombre entier supérieur à 0.
-* Vous devez choisir le prix que vous souhaitez faire gagner aux gagnants. Le champ est totalement libre ; entrez simplement le nom du prix, qu'il soit matériel, virtuel ou autre.
+* Vous devez choisir le prix que vous souhaitez mettre en jeu. Le champ est totalement libre ; entrez simplement le nom du prix, qu'il soit matériel, virtuel ou autre.
 * Enfin, vous pouvez choisir le salon dans lequel devra se dérouler le giveaway s'il diffère du salon dans lequel vous êtes en train d'entrer la commande pour paramétrer le giveaway. Cette option est donc facultative ; si vous la laissez vierge, le giveaway sera lancé directement dans le salon où la commande a été envoyée.
 
 ![Exemple d'une configuration avec la commande /giveaway create](../../.gitbook/assets/giveaway\_command\_create.png)
@@ -75,7 +75,7 @@ Dans ce champ, vous pouvez choisir de limiter le nombre de membres qui peuvent s
 Vous pouvez désactiver l'affichage de la liste des participants en décochant la case associée.
 
 {% hint style="info" %}
-Découvrez comment fonctionne ce bouton dans la partie [interaction directe avec la giveaway]\(giveaway.md#interaction-directe-avec-le-giveaway).
+Découvrez comment fonctionne ce bouton dans la partie [interaction directe avec le giveaway]\(giveaway.md#interaction-directe-avec-le-giveaway).
 {% endhint %}
 
 #### Rôles autorisés & ignorés
