@@ -9,7 +9,7 @@ To add John-Bot to your Discord server, go to John-Bot's invitation page.
 You can access it in different ways:
 * Through the website and then the "Add to Discord" button;
 * Using the `/invite` command on a server that has the bot (see image);
-* Through the direct link: [https://jnbt.xyz/invite](https://jnbt.xyz/invite)
+* Through the direct link: [https://jnbt.xyz/invite](https://jnbt.xyz/invite/docs)
 
 ![Command /invite on a Discord server with John-Bot](../.gitbook/assets/add_command_invite.png)
 
