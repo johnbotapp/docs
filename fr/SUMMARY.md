@@ -18,6 +18,7 @@
 * [Information](usage/fonctionnalites/information.md)
 * [Embed](usage/fonctionnalites/embed.md)
 * [Giveaway](usage/fonctionnalites/giveaway.md)
+* [Rappels](usage/fonctionnalites/rappels.md)
 * [Modération](usage/fonctionnalites/moderation.md)
 
 ## Ressources
