@@ -147,7 +147,7 @@ Cette option permet d'utiliser l'option de \`**Gestion exclusive du ticket**\`. 
 Le rappel d'inactivité permet de rappel à l'ensemble des participants du ticket que celui-ci est innactif à l'aide d'un message envoyé un bout d'une durée définie. Pour activer cette option, cochez simplement la case associée.
 
 {% hint style="info" %}
-Pour savoir comment définir le temps qui doit s'écouler avant l'envoi du rappel, consultez cette catégorie sur cette page : [ ](tickets.md#rappel-dinactivite)[Période avant l'envoi du rappel d'inactivité](tickets.md#periode-avant-lenvoi-du-rappel-dinactivite).
+Pour savoir comment définir le temps qui doit s'écouler avant l'envoi du rappel, consultez cette catégorie sur cette page : [Période avant l'envoi du rappel d'inactivité](tickets.md#periode-avant-lenvoi-du-rappel-dinactivite).
 {% endhint %}
 
 ![Exemple de message de rappel](../../.gitbook/assets/ticket\_rappel\_example.png)
