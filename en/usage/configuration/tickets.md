@@ -149,13 +149,13 @@ The inactivity reminder reminds all ticket participants that the ticket is inact
 To know how to set the time before sending the reminder, see this category on this page: [Period before sending the inactivity reminder](tickets.md#period-before-sending-the-inactivity-reminder).
 {% endhint %}
 
-![Example of a reminder message](../../.gitbook/assets/ticket_reminder_example.png)
+![Example of a reminder message](../../.gitbook/assets/ticket_rappel_example.png)
 
 #### Private Message Warning
 
 The private message warning is a message sent privately to the member originating the ticket when it is deleted. It allows the member in question to confirm that their ticket has been deleted and also provides them with some information. To activate it, simply check the associated box.
 
-![Example of a private message warning](<../../.gitbook/assets/ticket_warning_private_example.png>)
+![Example of a private message warning](../../.gitbook/assets/ticket_avertissement%20privé_example.png)
 
 #### Exclusive Ticket Management
 
@@ -206,13 +206,13 @@ The opening message will be the first message sent upon ticket opening and will 
 
 The text message is the text that will be displayed outside of the embed, like a regular Discord user. You can use emojis and markdown¹ to customize your text. To disable the text message, leave the field blank.
 
-![Example of an opening message with the text message highlighted](<../../.gitbook/assets/ticket_opening_message_text_part.png>)
+![Example of an opening message with the text message highlighted](../../.gitbook/assets/ticket_message%20d'ouverture_partie%20texte.png)
 
 **Embed**
 
 The embed is the part of the message that can contain several customizable elements and will be displayed below the text message. It is impossible to send it for a regular Discord user. You can use the available fields to customize your embed.
 
-![Example of an opening message with the embed highlighted](<../../.gitbook/assets/ticket_opening_message_embed_part.png>)
+![Example of an opening message with the embed highlighted](  ../../.gitbook/assets/ticket_message%20d'ouverture_partie%20embed.png)
 
 * **Enable Opening Embed:** You can check this box if you want to enable the embed in your opening message. If you want to disable the embed, uncheck this box.
 * **Embed Author Icon:** :gem: **:** You can illustrate your embed by adding an image (which can be animated) to your author, only visible when the author has a name.
@@ -221,7 +221,7 @@ The embed is the part of the message that can contain several customizable eleme
 * **Embed Title:** You can customize your embed by adding a title.
 * **Embed Description:** You can customize your embed by adding a description.
 * **Embed Color:** You can choose a color to customize your embed using the selector.
-* **Embed Thumbnail Link:** :gem: **:** You can illustrate your embed by adding a thumbnail.
+* **Embed Thumbnail Link: :** You can illustrate your embed by adding a thumbnail.
 * **Embed Image Link:** You can illustrate your embed by adding an image.
 * **Embed Footer Icon:** :gem: **:** You can complete your embed with a footer image.
 * **Embed Footer Text:** :gem: **:** You can complete your embed with the footer.
@@ -265,7 +265,7 @@ Choose which panels members will be able to use to open a ticket. Organize your 
 * **Panels Display Style :** You can choose the display style of the panels by selecting the desired option.
 * **Embed Description :** You can customize your embed by adding a description.
 * **Embed Color :** You can choose a color to customize your embed using the selector.
-* **Embed Thumbnail Link** :gem: **:** You can illustrate your embed by adding a thumbnail.
+* **Embed Thumbnail Link :** You can illustrate your embed by adding a thumbnail.
 * **Embed Image Link :** You can illustrate your embed by adding an image.
 * **Embed Footer Icon** :gem: **:** You can complete your embed with a footer image. By default, the image will be the bot's profile picture.
 * **Embed Footer Text** :gem: **:** You can complete your embed with the footer. By default, it will be `Powered by johnbot.app`.
@@ -315,7 +315,7 @@ For each question, you can customize some aesthetic elements and rearrange your 
 * **Text Box Placeholder:** The placeholder is the text displayed transparently in the response field, not on which the member will write (no.3) on the image.
 * **Required Question:** You can specify whether the question must be answered by the member or if they can submit the form without answering it (no.4 on the image). If the question has no answer, the formula `None` will be in place of the answer.
 
-![Example of a modal with customizable elements highlighted](../../.gitbook/assets/ticket_modele_example_aide.png)
+![Example of a modal with customizable elements highlighted](../../.gitbook/assets/ticket_modele_example%20aide.png)
 
 {% hint style="info" %}
 Once your modal is configured, don't forget to link it to the panel of your choice: [Modal linked to the panel, configure a panel](tickets.md#modèle-lié-au-panneau)
@@ -323,14 +323,19 @@ Once your modal is configured, don't forget to link it to the panel of your choi
 
 ## :wrench: List of Commands
 
-| Command         | Description                                  | Example                                             |
-|-----------------|----------------------------------------------|-----------------------------------------------------|
-| /ticket delete  | Deletes a closed ticket.                     |                                                     |
-| /ticket open    | Opens a closed ticket.                       | ![Command /ticket open](../../.gitbook/assets/ticket_command_open.png) |
-| /ticket remove  | Removes a member from the ticket.            | ![Command /ticket remove](../../.gitbook/assets/ticket_command_remove.png) |
-| /ticket rename  | Renames the ticket.                          | ![Command /ticket rename](../../.gitbook/assets/ticket_command_rename.png) |
-| /ticket transfer| Transfers ticket assignment to another team member. | ![Command /ticket transfer](../../.gitbook/assets/ticket_command_transfer.png) |
-| /ticket unclaim | Removes the ticket assignment from the handler. | ![Command /ticket unclaim](../../.gitbook/assets/ticket_command_unclaim.png) |
+| Command | Description | Example |
+| -------- | ----------- | ------- |
+| /ticket add | Adds a member to the ticket. | ![Command /ticket add](../../.gitbook/assets/ticket_command_add.png) |
+| /ticket claim | Assigns a support team member to handle the ticket. | ![Command /ticket claim](../../.gitbook/assets/ticket_command_claim.png) |
+| /ticket close | Closes the ticket. | ![Command /ticket close](../../.gitbook/assets/ticket_command_close.png) |
+| /ticket close-request | Requests closure of the ticket. | ![Command /ticket close-request](../../.gitbook/assets/ticket_command_close%20request.png) |
+| /ticket create | Creates a ticket. | ![Command /ticket create](../../.gitbook/assets/ticket_command_create.png) |
+| /ticket delete | Deletes a closed ticket. |  |
+| /ticket open | Opens a closed ticket. | ![Command /ticket open](../../.gitbook/assets/ticket_command_open.png) |
+| /ticket remove | Removes a member from the ticket. | ![Command /ticket remove](../../.gitbook/assets/ticket_command_remove.png) |
+| /ticket rename | Renames the ticket. | ![Command /ticket rename](../../.gitbook/assets/ticket_command_rename.png) |
+| /ticket transfer | Transfers ticket assignment to another support team member. | ![Command /ticket transfer](../../.gitbook/assets/ticket_command_transfer.png) |
+| /ticket unclaim | Removes assignment of the ticket from the handler. | ![Command /ticket unclaim](../../.gitbook/assets/ticket_command_unclaim.png) |
 
 ---
 1: Learn about Markdown: [Markdown Text 101 (Chat Formatting: Bold, Italic, Underline)](https://support.discord.com/hc/en-us/articles/210298617-Markdown-Text-101-Chat-Formatting-Bold-Italic-Underline)

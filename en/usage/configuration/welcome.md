@@ -57,7 +57,7 @@ The embed is the part of the message that can contain multiple customizable elem
 * **Embed Title:** You can customize your embed by adding a title.
 * **Embed Description:** You can customize your embed by adding a description.
 * **Embed Color:** You can choose a color to customize your embed using the color selector.
-* **Embed Thumbnail Link :gem: :** You can illustrate your embed by adding a thumbnail.
+* **Embed Thumbnail Link :** You can illustrate your embed by adding a thumbnail.
 * **Embed Image Link:** You can illustrate your embed by adding an image.
 * **Embed Footer Icon :gem: :** You can complete your embed with a footer image.
 * **Embed Footer Text :gem: :** You can complete your embed with a footer text.
@@ -94,12 +94,10 @@ The embed is the part of the message that can contain multiple customizable elem
 * **Embed Author Icon :gem: :** You can illustrate your embed by adding an image (which can be animated) to your author, visible only when the author has a name.
 * **Embed Author Name :gem: :** You can customize your embed by adding an author, which you can name as you like.
 * **Embed Author Link :gem: :** You can customize your embed by adding a link to an external site for the author.
-* **Embed Title:** You can
-
- customize your embed by adding a title.
+* **Embed Title:** You can customize your embed by adding a title.
 * **Embed Description:** You can customize your embed by adding a description.
 * **Embed Color:** You can choose a color to customize your embed using the color selector.
-* **Embed Thumbnail Link :gem: :** You can illustrate your embed by adding a thumbnail.
+* **Embed Thumbnail Link :** You can illustrate your embed by adding a thumbnail.
 * **Embed Image Link:** You can illustrate your embed by adding an image.
 * **Embed Footer Icon :gem: :** You can complete your embed with a footer image.
 * **Embed Footer Text :gem: :** You can complete your embed with a footer text.

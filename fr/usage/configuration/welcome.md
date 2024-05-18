@@ -57,7 +57,7 @@ L'embed est la partie du message qui peut comporter plusieurs éléments personn
 * **Titre de l'embed :** Vous pouvez personnaliser votre embed en y ajoutant un titre.
 * **Description de l'embed :** Vous pouvez personnaliser votre embed en y ajoutant une description.
 * **Couleur de l'embed :** Vous pouvez choisir une couleur pour personnaliser votre embed à l'aide du sélécteur.
-* **Lien de la vignette de l'embed** :gem: **:** Vous pouvez illustrer votre embed en y ajoutant une vignette.
+* **Lien de la vignette de l'embed :** Vous pouvez illustrer votre embed en y ajoutant une vignette.
 * **Lien de l'image de l'embed :** Vous pouvez illustrer votre embed en y ajoutant une image.
 * **Icône du footer de l'embed** :gem: **:** Vous pouvez compléter votre embed à l'aide d'une image de footer.
 * **Texte du footer de l'embed** :gem: **:** Vous pouvez compléter votre embed à l'aide du footer.
@@ -98,7 +98,7 @@ L'embed est la partie du message qui peut comporter plusieurs éléments personn
 * **Titre de l'embed :** Vous pouvez personnaliser votre embed en y ajoutant un titre.
 * **Description de l'embed :** Vous pouvez personnaliser votre embed en y ajoutant une description.
 * **Couleur de l'embed :** Vous pouvez choisir une couleur pour personnaliser votre embed à l'aide du sélécteur.
-* **Lien de la vignette de l'embed** :gem: **:** Vous pouvez illustrer votre embed en y ajoutant une vignette.
+* **Lien de la vignette de l'embed :** Vous pouvez illustrer votre embed en y ajoutant une vignette.
 * **Lien de l'image de l'embed :** Vous pouvez illustrer votre embed en y ajoutant une image.
 * **Icône du footer de l'embed** :gem: **:** Vous pouvez compléter votre embed à l'aide d'une image de footer.
 * **Texte du footer de l'embed** :gem: **:** Vous pouvez compléter votre embed à l'aide du footer.

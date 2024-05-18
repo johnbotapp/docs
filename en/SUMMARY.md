@@ -7,7 +7,7 @@
 * [Basic Configurations](guide/base.md)
 
 ## Configuration
-* [Welcome & Leave](usage/configuration/welcome.md)
+* [Join & Leave](usage/configuration/welcome.md)
 * [Ticketing](usage/configuration/tickets.md)
 * [Auto-moderation](usage/configuration/auto-moderation.md)
 * [Logging](usage/configuration/logs.md)
