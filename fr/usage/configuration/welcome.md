@@ -6,6 +6,7 @@ description: >-
 **Tutoriel vidéo lié à cette page :** [Configurer les actions d'arrivée et de départ de John-Bot - Tutoriel #3](https://youtu.be/XjmHGtcgMwU)
 
 ## :rocket: Introduction
+
 Le système d'arrivées et de départs de John-Bot permet d'annoncer lorsqu'un membre rejoint ou quitte le serveur et de lui attribuer certains rôles automatiquement à son arrivée.
 
 ## :tools: Accéder à la configuration

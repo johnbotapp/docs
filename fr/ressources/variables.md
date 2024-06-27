@@ -1,7 +1,7 @@
 ---
 description: >-
-  Liste des variables disponibles à utiliser à travers la configuration du
-  système de tickets, des messages d'arrivée et de départ
+  Liste des variables disponibles à utiliser à travers la configuration des
+  différents systèmes de John-Bot
 ---
 
 # Variables
