@@ -15,6 +15,7 @@ description: >-
 | {user.username}     | Affiche le nom unique (ou le nom et le tag) de l'utilisateur. | exempleutilisateur (ou Utilisateur#0001)                                                    |
 | {user.global\_name} | Affiche le nom d'affichage de l'utilisateur.                  | Utilisateur                                                                                 |
 | {user.avatar\_url}  | Affiche le lien de l'avatar de l'utilisateur.                 | https://cdn.discordapp.com/avatars/958547309728256081/c83207e3ef95fb6c9198562d0d04714f.webp |
+| {user.banner\_url}  | Affiche le lien de la bannière de l'utilisateur.              | https://cdn.discordapp.com/banners/958547309728256081/ebdcb6a0f0d8340a4c93549cc0925f9a.webp |
 
 ### Variables du Serveur
 
