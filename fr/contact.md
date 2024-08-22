@@ -1,8 +1,6 @@
 ---
 description: >-
-  Si vous avez besoin de contacter l’équipe de John-Bot, que ce soit pour une
-  question légale, une demande de support, ou pour signaler une faille qui doit
-  rester confidentielle, notre équipe est là pou
+  Si vous avez besoin de contacter l’équipe de John-Bot, que ce soit pour une question légale, une demande de support, ou tout autre demande notre équipe est là pour vous.
 layout:
   title:
     visible: true

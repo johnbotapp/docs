@@ -1,6 +1,6 @@
 ---
 description: >-
-  If you need to contact the John-Bot team, whether it's for a legal question, a support request, or to report a confidential vulnerability, our team is here to listen and respond to your request in the most efficient way possible. Our mission is to provide you with quick and quality access to our support.
+  If you need to contact the John-Bot team, whether for a legal question, a support request, or any other inquiry, our team is here for you.
 ---
 ## :speech_balloon: Contact Support
 Discover the different ways to contact the John-Bot team and choose the one that suits you best.

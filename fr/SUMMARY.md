@@ -1,6 +1,7 @@
 # Table des matières
 * [Accueil](README.md)
 * [Contact](contact.md)
+* [FAQ](faq.md)
 
 ## Bien Débuter
 * [Ajouter le bot](guide/add.md)
@@ -13,6 +14,7 @@
 * [Logs](usage/configuration/logs.md)
 * [Langue](usage/configuration/langue.md)
 * [Niveaux](usage/configuration/levels.md)
+    * [Experience](usage/configuration/levels-xp.md)
 
 ## Fonctionnalités
 * [Information](usage/fonctionnalites/information.md)
@@ -22,7 +24,8 @@
 * [Modération](usage/fonctionnalites/moderation.md)
 
 ## Ressources
+* [Commandes](https://www.johnbot.app/fr/commands)
 * [Variables](ressources/variables.md)
 * [Noms de Domaine](ressources/noms-de-domaine.md)
 * [Serveur Discord](https://discord.gg/Nwm2qQAfXN)
-* [Statut des Services](https://johnbot.app/status)
+* [Statut des Services](https://johnbot.app/fr/status)
