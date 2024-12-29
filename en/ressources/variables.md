@@ -80,7 +80,7 @@ description: >-
 
 ### Bluesky Variables
 
-| Variable            | Description                                | Exemple                                                                                                                                 |
+| Variable            | Description                                | Example                                                                                                                                 |
 | ------------------- | ------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------- |
 | {profile.url}       | Displays the Bluesky profile link.         | https://bsky.app/profile/bsky.app                                                                                                       |
 | {profile.name}      | Displays the Bluesky profile display name. | Bluesky                                                                                                                                 |
