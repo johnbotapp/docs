@@ -2,6 +2,7 @@
 description: >-
   If you need to contact the John-Bot team, whether for a legal question, a support request, or any other inquiry, our team is here for you.
 ---
+
 ## :speech_balloon: Contact Support
 Discover the different ways to contact the John-Bot team and choose the one that suits you best.
 

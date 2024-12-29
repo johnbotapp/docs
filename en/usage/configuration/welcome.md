@@ -3,7 +3,7 @@ description: >-
   Here, you will find information about John-Bot's join and leave system configuration.
 ---
 
-**Video tutorial related to this page:** [Configure John-Bot's Join and Leave Actions - Tutorial #3](https://youtu.be/XjmHGtcgMwU)
+**Video tutorial related to this page:** [Configure John-Bot's Join and Leave Actions - Tutorial #3](https://jnbt.xyz/tutorials/welcome)
 
 ## :rocket: Introduction
 John-Bot's join and leave system announces when a member joins or leaves the server and automatically assigns certain roles upon arrival.

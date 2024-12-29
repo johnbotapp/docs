@@ -3,7 +3,7 @@ description: >-
   Here you will find information about configuring the display language of John-Bot.
 ---
 
-**Video tutorial related to this page:** [Prepare your server for John-Bot configuration (prerequisites) - Tutorial #2](https://youtu.be/f1vCYjXOlvc)
+**Video tutorial related to this page:** [Prepare your server for John-Bot configuration (prerequisites) - Tutorial #2](https://jnbt.xyz/tutorials/start)
 
 # :rocket: Introduction
 

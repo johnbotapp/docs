@@ -5,7 +5,7 @@ description: >-
 
 # Giveaway
 
-**Video tutorial linked to this page:** [Organize a giveaway on your server with John-Bot - Tutorial #8](https://youtu.be/UsfRXtH8Rcg)
+**Video tutorial linked to this page:** [Organize a giveaway on your server with John-Bot - Tutorial #8](https://jnbt.xyz/tutorials/giveaways)
 
 ## :rocket: Introduction
 
@@ -122,16 +122,14 @@ You can view the list of people entered into the drawing by clicking the `Partic
 Find out how to configure this button in the [create and configure](giveaway.md#create-and-configure) section of this page.
 {% endhint %}
 
-![Example of a typical giveaway message](../../.gitbook
-
-/assets/giveaway\_example.png)
+![Example of a typical giveaway message](../../.gitbook/assets/giveaway_example.png)
 
 ### Commands
 
-| Command         | Description                                   |
-| ---------------- | --------------------------------------------- |
-| /giveaway create | Starts a giveaway.                            |
-| /giveaway delete | Deletes a giveaway.                         |
-| /giveaway end    | Ends a giveaway.                          |
-| /giveaway list   | Displays the list of giveaways on the server.    |
-| /giveaway reroll | Chooses new winners for a giveaway. |
+| Command | Description |
+| ----- | ----- |
+| /giveaway create | Start a giveaway. |
+| /giveaway delete | Deletes a giveaway. |
+| /giveaway end | Ends a giveaway. |
+| /giveaway list | Shows the giveaways list of the server.v |
+| /giveaway reroll | Choose new winners for a giveaway. |

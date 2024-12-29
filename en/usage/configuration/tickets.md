@@ -5,7 +5,7 @@ description: >-
 
 # Tickets
 
-**Video tutorial related to this page:** [Setting up John-Bot's Ticket System - Tutorial #4](https://youtu.be/wnepmF3Bdbc)
+**Video tutorial related to this page:** [Setting up John-Bot's Ticket System - Tutorial #4](https://jnbt.xyz/tutorials/tickets)
 
 ## :rocket: Introduction
 
@@ -326,16 +326,16 @@ Once your modal is configured, don't forget to link it to the panel of your choi
 | Command | Description | Example |
 | -------- | ----------- | ------- |
 | /ticket add | Adds a member to the ticket. | ![Command /ticket add](../../.gitbook/assets/ticket_command_add.png) |
-| /ticket claim | Assigns a support team member to handle the ticket. | ![Command /ticket claim](../../.gitbook/assets/ticket_command_claim.png) |
-| /ticket close | Closes the ticket. | ![Command /ticket close](../../.gitbook/assets/ticket_command_close.png) |
-| /ticket close-request | Requests closure of the ticket. | ![Command /ticket close-request](../../.gitbook/assets/ticket_command_close%20request.png) |
-| /ticket create | Creates a ticket. | ![Command /ticket create](../../.gitbook/assets/ticket_command_create.png) |
+| /ticket claim | Assigns a member of the support team to handle the ticket. | ![Command /ticket claim](../../.gitbook/assets/ticket_command_claim.png) |
+| /ticket close | Close the ticket. | ![Command /ticket close](../../.gitbook/assets/ticket_command_close.png) |
+| /ticket close-request | Requests ticket closure. | ![Command /ticket close-request](../../.gitbook/assets/ticket_command_close%20request.png) |
+| /ticket create | Create a ticket. | ![Command /ticket create](../../.gitbook/assets/ticket_command_create.png) |
 | /ticket delete | Deletes a closed ticket. |  |
 | /ticket open | Opens a closed ticket. | ![Command /ticket open](../../.gitbook/assets/ticket_command_open.png) |
-| /ticket remove | Removes a member from the ticket. | ![Command /ticket remove](../../.gitbook/assets/ticket_command_remove.png) |
-| /ticket rename | Renames the ticket. | ![Command /ticket rename](../../.gitbook/assets/ticket_command_rename.png) |
-| /ticket transfer | Transfers ticket assignment to another support team member. | ![Command /ticket transfer](../../.gitbook/assets/ticket_command_transfer.png) |
-| /ticket unclaim | Removes assignment of the ticket from the handler. | ![Command /ticket unclaim](../../.gitbook/assets/ticket_command_unclaim.png) |
+| /ticket remove | Remove a member from the ticket. | ![Command /ticket remove](../../.gitbook/assets/ticket_command_remove.png) |
+| /ticket rename | Rename the ticket. | ![Command /ticket rename](../../.gitbook/assets/ticket_command_rename.png) |
+| /ticket transfer | Transfer ticket assignment to another member of the support team. | ![Command /ticket transfer](../../.gitbook/assets/ticket_command_transfer.png) |
+| /ticket unclaim | Removes the ticket assignment from the handler. | ![Command /ticket unclaim](../../.gitbook/assets/ticket_command_unclaim.png) |
 
 ---
 1: Learn about Markdown: [Markdown Text 101 (Chat Formatting: Bold, Italic, Underline)](https://support.discord.com/hc/en-us/articles/210298617-Markdown-Text-101-Chat-Formatting-Bold-Italic-Underline)

@@ -29,7 +29,7 @@ layout:
 
 ## :book: La documentation
 
-La documentation de John-Bot est destinée à vous familiariser avec les diverses fonctionnalités que propose John-Bot. Elle permet de trouver rapidement une réponse écrite aux nombreux questionnements pouvant être rencontrés lors de l'utilisation de John-Bot, plus particulièrement lors de sa configuration. Chaque page de la documentation est liée à un tutoriel vidéo. Retrouvez tous les tutoriels officiels via cette playlist YouTube : https://jnbt.xyz/tutorials
+La documentation de John-Bot est destinée à vous familiariser avec les diverses fonctionnalités que propose John-Bot. Elle permet de trouver rapidement une réponse écrite aux nombreux questionnements pouvant être rencontrés lors de l'utilisation de John-Bot, plus particulièrement lors de sa configuration. Chaque page de la documentation est liée à un tutoriel vidéo. Retrouvez tous les tutoriels officiels via cette playlist YouTube : [Tutoriels - John-Bot](https://jnbt.xyz/fr/tutorials)
 
 ## :gear: Fonctionnement
 

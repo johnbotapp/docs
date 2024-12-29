@@ -6,7 +6,7 @@ description: >-
 
 # Tickets
 
-**Tutoriel vidéo lié à cette page :** [Configurer le système de tickets de John-Bot - Tutoriel #4](https://youtu.be/wnepmF3Bdbc)
+**Tutoriel vidéo lié à cette page :** [Configurer le système de tickets de John-Bot - Tutoriel #4](https://jnbt.xyz/fr/tutorials/tickets)
 
 ## :rocket: Introduction
 
@@ -130,7 +130,7 @@ Si cette limite est définie, elle prend le dessus sur la limite globale défini
 Les rôles des équipes permettent de définir plusieurs permissions en fonction des rôles. Ci-dessous, retrouvez l'explication détaillée pour chaque permission qui peut être attribuée. Pour définir un ou des rôles pour une permission, cliquez sur le champ et sélectionnez le ou les rôles souhaités. Vous pouvez également entrer le nom du rôle pour le rechercher.
 
 * **Rôles de l'équipe d'assistance :** Les membres de l'équipe d'assistance sont désignés pour accéder au ticket et répondre dans celui-ci. Par défaut, ils peuvent également le traiter, le fermer, le rouvrir ou utiliser les commandes de gestion.
-* **Rôles de l'équipe responsable :** Les membres de l'équipe responsable ont les mêmes permissions que l'équipe d'assistance, mais avec certains privilèges tels que la gestion exclusive du ticket.
+* **Rôles de l'équipe responsable :** Les membres de l'équipe responsable ont les mêmes permissions que l'équipe d'assistance mais se voient attribuer certains privilèges comme le coutournement de la [gestion exclusive du ticket](tickets.md#gestion-exclusive-du-ticket).
 * **Rôles à mentionner lors de l'ouverture :** Les rôles à mentionner lors de l'ouverture seront, comme leur nom l'indique, mentionnés à l'ouverture du ticket, sans message apparent, en utilisant la méthode dite du "ghost-ping". Le membre à l'origine du ticket sera toujours mentionné, mais choisir un rôle qu'il possède ne le mentionnera pas deux fois.
 * **Rôles d'exclusion :** Les rôles d'exclusion empêchent certains membres d'ouvrir des tickets dans le panneau. Lorsqu'un membre possède un rôle d'exclusion, il lui est impossible de créer un ticket dans le panneau.
 

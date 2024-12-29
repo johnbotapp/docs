@@ -26,6 +26,6 @@
 ## Resources
 * [Commands](https://www.johnbot.app/en/commands)
 * [Variables](ressources/variables.md)
-* [Domain Names](ressources/noms-de-domaine.md)
+* [Domain Names](ressources/domain-names.md)
 * [Discord Server](https://discord.gg/Nwm2qQAfXN)
 * [Service Status](https://johnbot.app/en/status)

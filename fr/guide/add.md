@@ -2,7 +2,7 @@
 description: >-
   Pour commencer à utiliser John-Bot, vous devez l'inviter sur votre serveur Discord. Découvrez comment procéder étape par étape.
 ---
-**Tutoriel vidéo lié à cette page :** [Ajouter John-Bot à son serveur Discord - Tutoriel #1](https://youtu.be/mW3R597AHVc)
+**Tutoriel vidéo lié à cette page :** [Ajouter John-Bot à son serveur Discord - Tutoriel #1](https://jnbt.xyz/fr/tutorials/add)
 
 # :link: Accéder à la page d'invitation
 Pour ajouter John-Bot à votre serveur Discord, rendez-vous sur la page d'invitation de John-Bot. 

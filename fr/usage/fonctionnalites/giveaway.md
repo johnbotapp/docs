@@ -1,12 +1,11 @@
 ---
 description: >-
-  Ici, vous trouverez des informations sur la création et la configuration de
-  giveaways ou concours.
+  Ici, vous trouverez des informations sur la création et la configuration de giveaways ou concours.
 ---
 
 # Giveaway
 
-**Tutoriel vidéo lié à cette page :** [Organiser un giveaway sur son serveur avec John-Bot - Tutoriel #8](https://youtu.be/UsfRXtH8Rcg)
+**Tutoriel vidéo lié à cette page :** [Organiser un giveaway sur son serveur avec John-Bot - Tutoriel #8](https://jnbt.xyz/fr/tutorials/giveaways)
 
 ## :rocket: Introduction
 
@@ -123,7 +122,7 @@ Vous pouvez consulter la liste des personnes inscrites au tirage au sort en cliq
 Découvrez comment configurer ce bouton dans la partie [créer et configurer](giveaway.md#creer-et-configurer) de cette page.
 {% endhint %}
 
-![Exemple d'un message classique de giveaway](../../.gitbook/assets/giveaway\_example.png)
+![Exemple d'un message classique de giveaway](../../.gitbook/assets/giveaway_example.png)
 
 ### Commandes
 

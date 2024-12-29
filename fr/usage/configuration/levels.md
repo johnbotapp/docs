@@ -6,7 +6,7 @@ description: >-
 
 # Niveaux
 
-**Tutoriel vidéo lié à cette page :** [Configurer le système de niveaux de John-Bot - Tutoriel #6](https://youtu.be/3gZlLS7rBT8)
+**Tutoriel vidéo lié à cette page :** [Configurer le système de niveaux de John-Bot - Tutoriel #7](https://jnbt.xyz/fr/tutorials/levels)
 
 ## :rocket: Introduction
 
@@ -160,7 +160,7 @@ Vous pouvez accéder au classement complet disponible en ligne de deux manières
 | /xp add | Ajoute de l'expérience à un membre. | ![Commande /xp add](../../.gitbook/assets/levels_commande_xp%20add.png) |
 | /xp remove | Retire de l'expérience à un membre. | ![Commande /xp remove](../../.gitbook/assets/levels_commande_xp%20remove.png) |
 | /xp import | Importe les données de niveaux d'autres robots. |  |
-| /xp reset | Réinitialise les données de niveaux d'un membre ou de tous les membres du serveur. | [Commande /xp reset](../../.gitbook/assets/levels_commande_xp%20reset.png) |
+| /xp reset | Réinitialise les données de niveaux d'un membre ou de tous les membres du serveur. | ![Commande /xp reset](../../.gitbook/assets/levels_commande_xp%20reset.png) |
 | /xp user | Affiche le nombre total d'expérience d'un membre et son niveau. | ![Commande /ticket open](../../.gitbook/assets/levels_commande_xp%20user.png) |
 | /rewards | Affiche la liste des récompenses pouvant être débloquées avec le système de niveaux. | ![Commande /ticket remove](../../.gitbook/assets/levels_commande_rewards.png) |
 

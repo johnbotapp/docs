@@ -3,6 +3,8 @@ description: >-
   Here you will find information about John-Bot's reminder command system. Learn how it works with its many commands.
 ---
 
+**Video tutorial related to this page:** [Use John-Bot Reminders on Discord - Tutorial #11](https://jnbt.xyz/tutorials/reminders)
+
 # :rocket: Introduction
 
 If you have a task you must not forget, you can use John-Bot's reminder system. With a simple command executable on any server or in private messages, you can schedule an alert that will be sent as a private message at a specific time.

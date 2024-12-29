@@ -26,28 +26,37 @@ description: >-
 | {server.icon\_url}     | Affiche l'icône du serveur.                         | https://cdn.discordapp.com/icons/959269961572962314/01f8699526e02fd34266e07835bd1de5.webp |
 | {server.member\_count} | Affiche le nombre de membres que compte le serveur. | 100                                                                                       |
 
-### Variable du Panneau
+### Variables du Panneau
 
-| Variable               | Description                  | Exemple |
-| ---------------------- | ---------------------------- | ------- |
-| {panel.ticket\_number} | Affiche le numéro du ticket. | 10      |
+| Variable     | Description                | Exemple |
+| ------------ | -------------------------- | ------- |
+| {panel.name} | Affiche le nom du panneau. | Support |
 
-### Variable du Ticket
+### Variables du Ticket
 
-| Variable      | Description                      | Exemple            |
-| ------------- | -------------------------------- | ------------------ |
-| {ticket}      | Mentionne le ticket.             | #ticket            |
-| {ticket.id}   | Affiche l'identifiant du ticket. | 959269961572962314 |
-| {ticket.name} | Affiche le nom du ticket.        | Ticket             |
+| Variable        | Description                      | Exemple            |
+| --------------- | -------------------------------- | ------------------ |
+| {ticket}        | Mentionne le ticket.             | #ticket            |
+| {ticket.id}     | Affiche l'identifiant du ticket. | 959269961572962314 |
+| {ticket.name}   | Affiche le nom du ticket.        | Ticket             |
+| {ticket.number} | Affiche le numéro du ticket.     | 10                 |
 
-### Variable de Niveaux
+### Variables de Niveaux
 
 | Variable      | Description                                                                     | Exemple        |
 | ------------- | ------------------------------------------------------------------------------- | -------------- |
 | {level}       | Affiche le nouveau niveau du membre lors de son passe d'un niveau à l'autre.    | 5              |
 | {reward.role} | Affiche le rôle débloqué par le membre lors de son passe d'un niveau à l'autre. | Super écrivain |
 
-### Variable YouTube
+### Variables de la Chaîne (YouTube et Twitch)
+
+| Variable            | Description                                  | Exemple                                                                                                                                                                                                                                |
+| ------------------- | -------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| {channel.url}       | Affiche le lien de la chaîne YouTube/Twitch. | https://www.youtube.com/channel/UCZuEgzPq-NvOpd9NO0BGV5Q **OU** https://www.twitch.tv/minecraft                                                                                                                                        |
+| {channel.name}      | Affiche le nom de la chaîne YouTube/Twitch.  | Les Cowboys Fringants                                                                                                                                                                                                                  |
+| {channel.icon\_url} | Affiche l'icône de la chaîne YouTube/Twitch. | https://yt3.ggpht.com/ytc/AIdro\_kW\_w6T3kawT7TZh99MUbevUopZLNhe\_5Mxag3RwTOg8mE=s800-c-k-c0x00ffffff-no-rj-mo **OU** https://static-cdn.jtvnw.net/jtv\_user\_pictures/c6284d38-5148-424b-a6cc-be06d2fc4aec-profile\_image-300x300.png |
+
+### Variables YouTube
 
 | Variable            | Description                         | Exemple                                                  |
 | ------------------- | ----------------------------------- | -------------------------------------------------------- |
@@ -58,7 +67,7 @@ description: >-
 | {video.duration}    | Affiche la durée de la vidéo.       | 2:46                                                     |
 | {video.url}         | Affiche le lien de la vidéo.        | https://www.youtube.com/watch?v=q5mUj4KBOb0              |
 
-### Variable Twitch
+### Variables Twitch
 
 | Variable                 | Description                                              | Exemple                                                                                                                                  |
 | ------------------------ | -------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
@@ -69,10 +78,14 @@ description: >-
 | {stream.viewer\_count}   | Affiche le nombre de spectateurs de diffusion en direct. | 1000                                                                                                                                     |
 | {stream.url}             | Affiche le lien de la diffusion en direct.               | https://www.twitch.tv/minecraft                                                                                                          |
 
-### Variable de la chaîne (YouTube et Twitch)
+### Variables Bluesky
 
-| Variable            | Description                                  | Exemple                                                                                                                                                                                                                                |
-| ------------------- | -------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| {channel.url}       | Affiche le lien de la chaîne YouTube/Twitch. | https://www.youtube.com/channel/UCZuEgzPq-NvOpd9NO0BGV5Q **OU** https://www.twitch.tv/minecraft                                                                                                                                        |
-| {channel.name}      | Affiche le nom de la chaîne YouTube/Twitch.  | Les Cowboys Fringants                                                                                                                                                                                                                  |
-| {channel.icon\_url} | Affiche l'icône de la chaîne YouTube/Twitch. | https://yt3.ggpht.com/ytc/AIdro\_kW\_w6T3kawT7TZh99MUbevUopZLNhe\_5Mxag3RwTOg8mE=s800-c-k-c0x00ffffff-no-rj-mo **OU** https://static-cdn.jtvnw.net/jtv\_user\_pictures/c6284d38-5148-424b-a6cc-be06d2fc4aec-profile\_image-300x300.png |
+| Variable            | Description                                     | Exemple                                                                                                                                 |
+| ------------------- | ----------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| {profile.url}       | Affiche le lien du profil Bluesky.              | https://bsky.app/profile/bsky.app                                                                                                       |
+| {profile.name}      | Affiche le nom d'affichage du profil Bluesky.   | Bluesky                                                                                                                                 |
+| {profile.icon\_url} | Affiche l'icône du profil Bluesky.              | https://cdn.bsky.app/img/avatar/plain/did:plc:z72i7hdynmk6r22z27h6tvur/bafkreihagr2cmvl2jt4mgx3sppwe2it3fwolkrbtjrhcnwjk4jdijhsoze@jpeg |
+| {profile.handle}    | Affiche le nom d'utilisateur du profil Bluesky. | bsky.app                                                                                                                                |
+| {post.content}      | Affiche le contenu de la publication.           | Bienvenue sur mon compte Bluesky !                                                                                                      |
+| {post.url}          | Affiche le lien de la publication.              | https://bsky.app/profile/bsky.app/post/3l6oveex3ii2l                                                                                    |
+| {post.id}           | Affiche l'identifiant de la publication.        | 3l6oveex3ii2l                                                                                                                           |

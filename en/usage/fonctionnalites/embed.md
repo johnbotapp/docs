@@ -3,7 +3,7 @@ description: >-
   Here you will find information about John-Bot's customizable embed system. Learn how to configure it and how it works.
 ---
 
-**Video tutorial related to this page:** [Create a customizable embed on Discord with John-Bot - Tutorial #7](https://youtu.be/G_QIkvh19JQ)
+**Video tutorial related to this page:** [Create and Send an Editable Embed on Discord - Tutorial #10](https://jnbt.xyz/tutorials/embeds)
 
 ## :rocket: Introduction
 

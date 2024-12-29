@@ -5,7 +5,7 @@ description: >-
 
 # Levels
 
-**Video tutorial related to this page:** [Configure John-Bot's Level System - Tutorial #6](https://youtu.be/3gZlLS7rBT8)
+**Video tutorial related to this page:** [Configure John-Bot's Level System - Tutorial #7](https://jnbt.xyz/tutorials/levels)
 
 ## :rocket: Introduction
 
@@ -153,14 +153,14 @@ You can access the complete online leaderboard in two ways:
 
 | Command | Description | Example |
 | ------- | ----------- | ------- |
-| /leaderboard | Displays the server members' level leaderboard. | ![Command /leaderboard](../../.gitbook/assets/levels_leaderboard_exemple.png) |
-| /rank or /level | Displays your level or a member's level. | ![Command /rank or /level](../../.gitbook/assets/levels_commande_rank.png) |
-| /xp add | Adds experience to a member. | ![Command /xp add](../../.gitbook/assets/levels_commande_xp%20add.png) |
-| /xp remove | Removes experience from a member. | ![Command /xp remove](../../.gitbook/assets/levels_commande_xp%20remove.png) |
-| /xp import | Imports leveling data from other bots. |  |
-| /xp reset | Resets the leveling data of a member or all server members. | [Command /xp reset](../../.gitbook/assets/levels_commande_xp%20reset.png) |
-| /xp user | Displays a member's total experience and level. | ![Command /ticket open](../../.gitbook/assets/levels_commande_xp%20user.png) |
-| /rewards | Displays the list of rewards that can be unlocked with the leveling system. | ![Command /ticket remove](../../.gitbook/assets/levels_commande_rewards.png) |
+| /leaderboard | Shows the level leaderboard of all members. | ![Command /leaderboard](../../.gitbook/assets/levels_leaderboard_exemple.png) |
+| /rank or /level | Shows your or a member's rank. | ![Command /rank or /level](../../.gitbook/assets/levels_commande_rank.png) |
+| /xp add | Adds XP to a member. | ![Command /xp add](../../.gitbook/assets/levels_commande_xp%20add.png) |
+| /xp remove | Remove XP from a member. | ![Command /xp remove](../../.gitbook/assets/levels_commande_xp%20remove.png) |
+| /xp import | Imports level's data from others bots. |  |
+| /xp reset | Reset the level data of a member or all members of the server. | [Command /xp reset](../../.gitbook/assets/levels_commande_xp%20reset.png) |
+| /xp user | Shows a member's total XP and his level. | ![Command /ticket open](../../.gitbook/assets/levels_commande_xp%20user.png) |
+| /rewards | Shows the list of rewards that can be unlocked with the leveling system. | ![Command /ticket remove](../../.gitbook/assets/levels_commande_rewards.png) |
 
 ***
 

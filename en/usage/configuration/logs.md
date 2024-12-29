@@ -3,7 +3,7 @@ description: >-
   Here, you will find information related to the configuration of John-Bot's logging system.
 ---
 
-**Video tutorial related to this page:** [Configure John-Bot's Logging System - Tutorial #5](https://youtu.be/FE8a_8NTkeQ)
+**Video tutorial related to this page:** [Setting up the John-Bot logging system - Tutorial #6](https://jnbt.xyz/tutorials/logs)
 
 ## :rocket: Introduction
 A logging system on Discord is an essential tool for monitoring and recording activities that occur on a Discord server. It allows you to record in server channels all activities related to messages, roles, server events, member arrivals and departures, member updates, moderation, channels, emojis, threads, and activities in voice channels.

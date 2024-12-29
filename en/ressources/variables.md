@@ -26,26 +26,35 @@ description: >-
 | {server.icon\_url}     | Displays the server's icon.                   | https://cdn.discordapp.com/icons/959269961572962314/01f8699526e02fd34266e07835bd1de5.webp |
 | {server.member\_count} | Displays the number of members in the server. | 100                                                                                       |
 
-### Panel Variable
+### Panel Variables
 
-| Variable               | Description                 | Example |
-| ---------------------- | --------------------------- | ------- |
-| {panel.ticket\_number} | Displays the ticket number. | 10      |
+| Variable     | Description              | Example |
+| ------------ | ------------------------ | ------- |
+| {panel.name} | Displays the panel name. | Support |
 
-### Ticket Variable
+### Ticket Variables
 
-| Variable      | Description               | Example            |
-| ------------- | ------------------------- | ------------------ |
-| {ticket}      | Mentions the ticket.      | #ticket            |
-| {ticket.id}   | Displays the ticket ID.   | 959269961572962314 |
-| {ticket.name} | Displays the ticket name. | Ticket             |
+| Variable        | Description                 | Example            |
+| --------------- | --------------------------- | ------------------ |
+| {ticket}        | Mentions the ticket.        | #ticket            |
+| {ticket.id}     | Displays the ticket ID.     | 959269961572962314 |
+| {ticket.name}   | Displays the ticket name.   | Ticket             |
+| {ticket.number} | Displays the ticket number. | 10                 |
 
-### Level Variables
+### Level Variabless
 
 | Variable      | Description                                                  | Example      |
 | ------------- | ------------------------------------------------------------ | ------------ |
 | {level}       | Displays the member's new level when they level up.          | 5            |
 | {reward.role} | Displays the role unlocked by the member when they level up. | Super Writer |
+
+### Channel Variables (YouTube and Twitch)
+
+| Variable            | Description                               | Example                                                                                                                                                                                                                                |
+| ------------------- | ----------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| {channel.url}       | Displays the YouTube/Twitch channel link. | https://www.youtube.com/channel/UCZuEgzPq-NvOpd9NO0BGV5Q **OR** https://www.twitch.tv/minecraft                                                                                                                                        |
+| {channel.name}      | Displays the YouTube/Twitch channel name. | Les Cowboys Fringants                                                                                                                                                                                                                  |
+| {channel.icon\_url} | Displays the YouTube/Twitch channel icon. | https://yt3.ggpht.com/ytc/AIdro\_kW\_w6T3kawT7TZh99MUbevUopZLNhe\_5Mxag3RwTOg8mE=s800-c-k-c0x00ffffff-no-rj-mo **OR** https://static-cdn.jtvnw.net/jtv\_user\_pictures/c6284d38-5148-424b-a6cc-be06d2fc4aec-profile\_image-300x300.png |
 
 ### YouTube Variables
 
@@ -69,10 +78,14 @@ description: >-
 | {stream.viewer\_count}   | Displays the number of viewers watching the stream live. | 1000                                                                                                                                     |
 | {stream.url}             | Displays the stream link.                                | https://www.twitch.tv/minecraft                                                                                                          |
 
-### Channel Variables (YouTube and Twitch)
+### Bluesky Variables
 
-| Variable            | Description                               | Example                                                                                                                                                                                                                                |
-| ------------------- | ----------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| {channel.url}       | Displays the YouTube/Twitch channel link. | https://www.youtube.com/channel/UCZuEgzPq-NvOpd9NO0BGV5Q **OR** https://www.twitch.tv/minecraft                                                                                                                                        |
-| {channel.name}      | Displays the YouTube/Twitch channel name. | Les Cowboys Fringants                                                                                                                                                                                                                  |
-| {channel.icon\_url} | Displays the YouTube/Twitch channel icon. | https://yt3.ggpht.com/ytc/AIdro\_kW\_w6T3kawT7TZh99MUbevUopZLNhe\_5Mxag3RwTOg8mE=s800-c-k-c0x00ffffff-no-rj-mo **OR** https://static-cdn.jtvnw.net/jtv\_user\_pictures/c6284d38-5148-424b-a6cc-be06d2fc4aec-profile\_image-300x300.png |
+| Variable            | Description                                | Exemple                                                                                                                                 |
+| ------------------- | ------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------- |
+| {profile.url}       | Displays the Bluesky profile link.         | https://bsky.app/profile/bsky.app                                                                                                       |
+| {profile.name}      | Displays the Bluesky profile display name. | Bluesky                                                                                                                                 |
+| {profile.icon\_url} | Displays the Bluesky profile icon.         | https://cdn.bsky.app/img/avatar/plain/did:plc:z72i7hdynmk6r22z27h6tvur/bafkreihagr2cmvl2jt4mgx3sppwe2it3fwolkrbtjrhcnwjk4jdijhsoze@jpeg |
+| {profile.handle}    | Displays the Bluesky profile username.     | bsky.app                                                                                                                                |
+| {post.content}      | Displays the post content.                 | Welcome to my Bluesky account!                                                                                                          |
+| {post.url}          | Displays the post link.                    | https://bsky.app/profile/bsky.app/post/3l6oveex3ii2l                                                                                    |
+| {post.id}           | Displays the post ID.                      | 3l6oveex3ii2l                                                                                                                           |

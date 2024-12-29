@@ -3,7 +3,7 @@ description: >-
   Ici, vous trouverez des informations relatives à la configuration du système d'arrivées et de départs de John-Bot.
 ---
 
-**Tutoriel vidéo lié à cette page :** [Configurer les actions d'arrivée et de départ de John-Bot - Tutoriel #3](https://youtu.be/XjmHGtcgMwU)
+**Tutoriel vidéo lié à cette page :** [Configurer les actions d'arrivée et de départ de John-Bot - Tutoriel #3](https://jnbt.xyz/fr/tutorials/welcome)
 
 ## :rocket: Introduction
 

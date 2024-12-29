@@ -3,7 +3,7 @@ description: >-
   Ici, vous trouverez des informations relatives à la configuration du système de logs de John-Bot.
 ---
 
-**Tutoriel vidéo lié à cette page :** [Configurer le système de logs de John-Bot - Tutoriel #5](https://youtu.be/FE8a_8NTkeQ)
+**Tutoriel vidéo lié à cette page :** [Configurer le système de logs de John-Bot - Tutoriel #6](https://jnbt.xyz/fr/tutorials/logs)
 
 ## :rocket: Introduction
 Un système de logs sur Discord est un outil essentiel pour surveiller et enregistrer les activités qui se produisent sur un serveur Discord. Il permet d'enregistrer dans des salons du serveur toutes les activités relatives aux messages, aux rôles, au serveur, aux arrivées et départs, aux mises à jour des membres, à la modération, aux salons, aux emojis, aux threads (fils) et aux activités dans les salons vocaux.

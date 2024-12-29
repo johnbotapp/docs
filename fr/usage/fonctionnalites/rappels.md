@@ -3,6 +3,8 @@ description: >-
   Ici, vous trouverez des informations sur le système de rappels par commandes de John-Bot. Découvrez son fonctionnement avec ses nombreuses commandes.
 ---
 
+**Tutoriel vidéo lié à cette page :** [Utiliser les rappels de John-Bot sur Discord - Tutoriel #11](https://jnbt.xyz/fr/tutorials/reminders)
+
 # :rocket: Introduction
 
 Si vous avez une tâche que vous ne devez surtout pas oublier, vous pouvez utiliser le système de rappels de John-Bot. Il permet, en une simple commande exécutable sur n'importe quel serveur ou en messages privés, de programmer une alerte, qui sera envoyée sous forme de message privé à une heure précise.
