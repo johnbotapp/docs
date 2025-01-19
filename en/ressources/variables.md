@@ -14,6 +14,7 @@ description: >-
 | {user.id}           | Displays the user's ID.                            | 982054684481167410                                                                          |
 | {user.username}     | Displays the user's unique name (or name and tag). | exampleuser (or User#0001)                                                                  |
 | {user.global\_name} | Displays the user's display name.                  | User                                                                                        |
+| {user.nickname}     | Displays the user's nickname on the server.        | Moderator - User                                                                            |
 | {user.avatar\_url}  | Displays the link to the user's avatar.            | https://cdn.discordapp.com/avatars/958547309728256081/c83207e3ef95fb6c9198562d0d04714f.webp |
 | {user.banner\_url}  | Displays the link to the user's banner.            | https://cdn.discordapp.com/banners/958547309728256081/ebdcb6a0f0d8340a4c93549cc0925f9a.webp |
 
@@ -28,9 +29,10 @@ description: >-
 
 ### Panel Variables
 
-| Variable     | Description              | Example |
-| ------------ | ------------------------ | ------- |
-| {panel.name} | Displays the panel name. | Support |
+| Variable             | Description                                            | Example                  |
+| -------------------- | ------------------------------------------------------ | ------------------------ |
+| {panel.name}         | Displays the panel name.                               | Support                  |
+| {panel.reopening_at} | Displays the date at which the panel will be reopened. | January 20, 2025 8:00 AM |
 
 ### Ticket Variables
 
