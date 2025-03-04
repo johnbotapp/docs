@@ -6,6 +6,14 @@ description: >-
 
 # Variables
 
+### Variables de Date
+
+| Variable    | Description                                         | Exemple    |
+| ----------- | --------------------------------------------------- | ---------- |
+| {date}      | Affiche la date actuelle sous forme : `JJ/MM/AAAA`. | 04/03/2024 |
+| {date.time} | Affiche le temps actuelle sous forme : `HH:MM`.     | 09:22      |
+| {timestamp} | Affiche l'horodatage actuel.                        | 1741098205 |
+
 ### Variables de l'Utilisateur
 
 | Variable            | Description                                                   | Exemple                                                                                     |
@@ -29,10 +37,10 @@ description: >-
 
 ### Variables du Panneau
 
-| Variable             | Description                                                   | Example               |
-| -------------------- | ------------------------------------------------------------- | --------------------- |
-| {panel.name}         | Affiche le nom du panneau.                                    | Support               |
-| {panel.reopening_at} | Affiche la date à laquelle le panneau sera de nouveau ouvert. | 20 janvier 2025 07:00 |
+| Variable              | Description                                                   | Example               |
+| --------------------- | ------------------------------------------------------------- | --------------------- |
+| {panel.name}          | Affiche le nom du panneau.                                    | Support               |
+| {panel.reopening\_at} | Affiche la date à laquelle le panneau sera de nouveau ouvert. | 20 janvier 2025 07:00 |
 
 ### Variables du Ticket
 

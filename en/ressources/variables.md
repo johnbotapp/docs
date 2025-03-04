@@ -6,6 +6,14 @@ description: >-
 
 # Variables
 
+### Variables de Date
+
+| Variable    | Description                                             | Exemple    |
+| ----------- | ------------------------------------------------------- | ---------- |
+| {date}      | Displays the current date in the format : `DD/MM/YYYY`. | 04/03/2024 |
+| {date.time} | Displays the current time in the format : `HH:MM`.      | 09:22      |
+| {timestamp} | Displays the current timestamp.                         | 1741098205 |
+
 ### User Variables
 
 | Variable            | Description                                        | Example                                                                                     |
