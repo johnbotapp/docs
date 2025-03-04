@@ -6,7 +6,7 @@ description: >-
 
 # Variables
 
-### Variables de Date
+### Date Variables
 
 | Variable    | Description                                             | Exemple    |
 | ----------- | ------------------------------------------------------- | ---------- |
