@@ -27,7 +27,7 @@ Vous pouvez accéder directement au tableau de bord de votre serveur en entrant 
 
 # :flag_fr: Définir la langue
 Avant de commencer la moindre configuration, il est conseillé de choisir la langue d'affichage de John-Bot.
-Découvrez comment faire : [Changer la langue de son serveur](../usage/configuration/langue.md)
+Découvrez comment faire : [Changer la langue de son serveur](../usage/configuration/language.md)
 
 # :gem: Activer John-Bot Premium
 

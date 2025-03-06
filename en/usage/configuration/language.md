@@ -13,7 +13,7 @@ Depending on your server, you can set the language in which John-Bot will intera
 
 ### Access the dashboard
 
-First, go to the John-Bot dashboard through your preferred method. Learn how to do it: [How to access the dashboard](../../guide/base.md#pushpin-access-the-dashboard)
+First, go to the John-Bot dashboard through your preferred method. Learn how to do it: [How to access the dashboard](../../guide/guide.md#pushpin-access-the-dashboard)
 
 ### Access settings
 

@@ -27,7 +27,7 @@ You can directly access your server's dashboard by entering the following format
 
 # :flag_fr: Set the Language
 Before starting any configuration, it is advisable to choose the display language for John-Bot.
-Find out how to do it: [Change Your Server's Language](../usage/configuration/langue.md)
+Find out how to do it: [Change Your Server's Language](../usage/configuration/language.md)
 
 # :gem: Activate John-Bot Premium
 

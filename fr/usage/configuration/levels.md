@@ -16,7 +16,7 @@ Pour maintenir une activité constante sur un serveur Discord, la méthode la pl
 
 ### Accéder au tableau de bord
 
-Tout d'abord, rendez vous sur le tableau de bord de John-Bot par le moyen de votre choix. Découvrez comment faire : [Comment accéder au tableau de bord](../../guide/base.md#pushpin-accéder-au-tableau-de-bord)
+Tout d'abord, rendez vous sur le tableau de bord de John-Bot par le moyen de votre choix. Découvrez comment faire : [Comment accéder au tableau de bord](../../guide/guide.md#pushpin-accéder-au-tableau-de-bord)
 
 ### Accéder aux paramètres
 

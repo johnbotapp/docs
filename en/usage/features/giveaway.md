@@ -35,7 +35,7 @@ If you want to create a complex and detailed giveaway by integrating original el
 
 ### Accessing the Dashboard
 
-First, go to John-Bot's dashboard using the method of your choice. Learn how to do this: [How to access the dashboard](../../guide/base.md#pushpin-accessing-the-dashboard)
+First, go to John-Bot's dashboard using the method of your choice. Learn how to do this: [How to access the dashboard](../../guide/guide.md#pushpin-accessing-the-dashboard)
 
 ### Accessing Settings
 

@@ -12,7 +12,7 @@ John-Bot's join and leave system announces when a member joins or leaves the ser
 
 ### Accessing the Dashboard
 
-First, go to John-Bot's dashboard using your preferred method. Find out how: [How to Access the Dashboard](../../guide/base.md#pushpin-access-the-dashboard)
+First, go to John-Bot's dashboard using your preferred method. Find out how: [How to Access the Dashboard](../../guide/guide.md#pushpin-access-the-dashboard)
 
 ### Accessing Settings
 

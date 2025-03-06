@@ -15,7 +15,7 @@ To maintain consistent activity on a Discord server, the most recommended method
 
 ### Access the Dashboard
 
-First, go to the John-Bot dashboard through the method of your choice. Learn how to do it here: [How to Access the Dashboard](../../guide/base.md#pushpin-access-the-dashboard)
+First, go to the John-Bot dashboard through the method of your choice. Learn how to do it here: [How to Access the Dashboard](../../guide/guide.md#pushpin-access-the-dashboard)
 
 ### Access the Settings
 

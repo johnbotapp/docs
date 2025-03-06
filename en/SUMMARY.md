@@ -4,24 +4,24 @@
 * [FAQ](faq.md)
 
 ## Getting Started
-* [Add the bot](guide/add.md)
-* [Basic Configurations](guide/base.md)
+* [Add the bot](guide/add-bot.md)
+* [Basic Configurations](guide/guide.md)
 
 ## Configuration
 * [Join & Leave](usage/configuration/welcome.md)
 * [Ticketing](usage/configuration/tickets.md)
 * [Auto-moderation](usage/configuration/auto-moderation.md)
 * [Logging](usage/configuration/logs.md)
-* [Language](usage/configuration/langue.md)
+* [Language](usage/configuration/language.md)
 * [Leveling](usage/configuration/levels.md)
     * [Experience](usage/configuration/levels-xp.md)
 
 ## Features
-* [Information](usage/fonctionnalites/information.md)
-* [Embed](usage/fonctionnalites/embed.md)
-* [Giveaway](usage/fonctionnalites/giveaway.md)
-* [Reminders](usage/fonctionnalites/rappels.md)
-* [Moderation](usage/fonctionnalites/moderation.md)
+* [Information](usage/features/information.md)
+* [Embed](usage/features/embed.md)
+* [Giveaway](usage/features/giveaway.md)
+* [Reminders](usage/features/reminders.md)
+* [Moderation](usage/features/moderation.md)
 
 ## Resources
 * [Commands](https://www.johnbot.app/en/commands)

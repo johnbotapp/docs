@@ -17,7 +17,7 @@ To create a ticket system, you need to create one or more panels, each correspon
 
 ### Accessing the Dashboard
 
-First, go to John-Bot's dashboard using your preferred method. Learn how: [How to Access the Dashboard](../../guide/base.md#pushpin-accessing-the-dashboard)
+First, go to John-Bot's dashboard using your preferred method. Learn how: [How to Access the Dashboard](../../guide/guide.md#pushpin-accessing-the-dashboard)
 
 ### Accessing Settings
 

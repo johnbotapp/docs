@@ -1,3 +1,3 @@
 # Languages
 * [English](en/)
-* [French](fr/)
+* [Français](fr/)

@@ -13,7 +13,7 @@ The embed system allows you to send a message, under the name of John-Bot, that 
 
 ## Access the dashboard
 
-First, go to the John-Bot dashboard through your preferred method. Learn how to do it: [How to access the dashboard](../../guide/base.md#pushpin-access-the-dashboard)
+First, go to the John-Bot dashboard through your preferred method. Learn how to do it: [How to access the dashboard](../../guide/guide.md#pushpin-access-the-dashboard)
 
 ## Access settings
 
