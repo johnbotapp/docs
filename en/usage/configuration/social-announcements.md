@@ -1,4 +1,4 @@
----  
+---
 description: >-  
   Here, you will learn how to automatically announce your new videos, live streams, or Shorts instantly on your Discord server.  
 ---
