@@ -21,7 +21,7 @@ Pour :
 Dans ce tableau ne sont réprésentés que les 100 premiers niveaux, John-Bot pouvant traiter les niveaux jusqu'au neuf mille neuf cent quatre-vingt-dix-neuvième.
 {% endhint %}
 
-| **Niveau** | **Experience** |
+| Niveau    | Experience |
 | --------- | --------------------- |
 | 0         | 0                     |
 | 1         | 100                   |

@@ -21,7 +21,7 @@ For:
 This table only shows the first 100 levels, but John-Bot can handle levels up to nine thousand nine hundred ninety-nine.
 {% endhint %}
 
-| **Level** | **Experience** |
+| Level     | Experience |
 | --------- | --------------------- |
 | 0         | 0                     |
 | 1         | 100                   |
