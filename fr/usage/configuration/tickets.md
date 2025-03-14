@@ -152,11 +152,11 @@ Pour savoir comment définir le temps qui doit s'écouler avant l'envoi du rappe
 
 ![Exemple de message de rappel](../../.gitbook/assets/ticket\_rappel\_example.png)
 
-#### Avertissement en message privé
+#### Notification en message privé
 
-L'avertissement en message privé est un message envoyé en privé au membre à l'origine du ticket lors de la suppression de ce dernier. Il permet au membre en question de confirmer que son ticket a bien été supprimé et lui permet également d'obtenir quelques informations. Pour l'activer, cochez simplement la case associée.
+La notification en message privé est un message envoyé en privé au membre à l'origine du ticket lors de la suppression de ce dernier. Il permet au membre en question de confirmer que son ticket a bien été supprimé et lui permet également d'obtenir quelques informations, dont la transcription du ticket. Pour l'activer, cochez simplement la case associée.
 
-![Exemple d'avertissement en message privé](<../../.gitbook/assets/ticket\_avertissement privé\_example.png>)
+![Exemple de notification en message privé](<../../.gitbook/assets/ticket\_avertissement privé\_example.png>)
 
 #### Gestion exclusive du ticket
 

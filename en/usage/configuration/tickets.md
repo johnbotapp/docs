@@ -151,11 +151,11 @@ To know how to set the time before sending the reminder, see this category on th
 
 ![Example of a reminder message](../../.gitbook/assets/ticket_rappel_example.png)
 
-#### Private Message Warning
+#### Private Message Notification
 
-The private message warning is a message sent privately to the member originating the ticket when it is deleted. It allows the member in question to confirm that their ticket has been deleted and also provides them with some information. To activate it, simply check the associated box.
+The private message motification is a message sent privately to the member originating the ticket when it is deleted. It allows the member in question to confirm that their ticket has been deleted and also provides them with some information, including the ticket transcript. To activate it, simply check the associated box.
 
-![Example of a private message warning](../../.gitbook/assets/ticket_avertissement%20privé_example.png)
+![Example of a private message motification](../../.gitbook/assets/ticket_avertissement%20privé_example.png)
 
 #### Exclusive Ticket Management
 
