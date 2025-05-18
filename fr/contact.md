@@ -1,6 +1,9 @@
 ---
 description: >-
-  Si vous avez besoin de contacter l’équipe de John-Bot, que ce soit pour une question légale, une demande de support, ou tout autre demande notre équipe est là pour vous.
+  Si vous avez besoin de contacter l’équipe de John-Bot, que ce soit pour une
+  question légale, une demande de support, ou tout autre demande notre équipe
+  est là pour vous.
+icon: phone
 layout:
   title:
     visible: true
@@ -37,5 +40,6 @@ John-Bot dispose de deux adresses électroniques. L'une pour les questions gén�
 
 Pour soumettre une demande, envoyez simplement un e-mail à l'adresse qui correspond dans le respect des normes de messagerie électronique.
 
----
-1 : [Système de ticket](../fr/usage/configuration/tickets.md) propulsé par John-Bot
+***
+
+1 : [Système de ticket](usage/configuration/tickets.md) propulsé par John-Bot

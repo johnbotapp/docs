@@ -3,6 +3,7 @@ description: >-
   Vous avez des questionnements sur lors de l'utilisation de John-Bot ? La
   documentation vous apporte une réponse. Découvrez John-Bot et le
   fonctionnement de sa documentation.
+icon: book-open
 cover: .gitbook/assets/banner.png
 coverY: 0
 layout:
