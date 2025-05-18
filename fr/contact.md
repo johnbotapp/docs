@@ -3,7 +3,6 @@ description: >-
   Si vous avez besoin de contacter l’équipe de John-Bot, que ce soit pour une
   question légale, une demande de support, ou tout autre demande notre équipe
   est là pour vous.
-icon: at
 layout:
   title:
     visible: true

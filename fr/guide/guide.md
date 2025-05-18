@@ -2,7 +2,6 @@
 description: >-
   Avant de commencer la configuration et la personnalisation de John-Bot sur
   votre serveur, voici quelques conseils de base.
-icon: sliders-up
 ---
 
 # Configurations basiques

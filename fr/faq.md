@@ -2,7 +2,6 @@
 description: >-
   Avant de demander de l'aide, consultez cette page qui répond aux questions les
   plus fréquentes sur l'utilisation de John-Bot.
-icon: circle-question
 layout:
   title:
     visible: true
