@@ -18,7 +18,7 @@
 
 ## Fonctionnalités
 * [Information](usage/features/information.md)
-* [Embed](usage/features/embed.md)
+* [Créateur de Messages](usage/features/messages-creator.md)
 * [Giveaway](usage/features/giveaway.md)
 * [Rappels](usage/features/reminders.md)
 * [Modération](usage/features/moderation.md)

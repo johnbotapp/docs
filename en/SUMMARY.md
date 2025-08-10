@@ -18,7 +18,7 @@
 
 ## Features
 * [Information](usage/features/information.md)
-* [Embed](usage/features/embed.md)
+* [Messages Creator](usage/features/messages-creator.md)
 * [Giveaway](usage/features/giveaway.md)
 * [Reminders](usage/features/reminders.md)
 * [Moderation](usage/features/moderation.md)
