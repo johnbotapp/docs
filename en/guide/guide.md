@@ -1,58 +1,58 @@
 ---
 description: >-
-  Before starting the configuration and customization of John-Bot on your server, here are some basic tips.
+  Before you start configuring and customizing John-Bot on your server, here are a few basic tips to get you ready.
 ---
 **Video tutorial related to this page:** [Preparing Your Server for John-Bot Configuration (Prerequisites) - Tutorial #2](https://jnbt.xyz/tutorials/start)
 
 # :clipboard: Verify Permissions
-To function properly, John-Bot must have a certain number of permissions. It is strongly recommended to assign the administrator permission to avoid any conflicts.
-<br/> When adding John-Bot, you probably already assigned these permissions, but a check is necessary. To do this, go to your Discord server settings.
+For John-Bot to work properly, it needs certain permissions. We strongly recommend granting it the Administrator permission to avoid any conflicts.
+<br/> You likely already assigned these permissions when adding John-Bot, but it's worth double-checking. To do so, go to your Discord server settings, then to the "Roles" tab. Select the John-Bot role, go to its permissions, and make sure the Administrator permission is toggled on.
 
 # :pushpin: Access the Dashboard
 To configure John-Bot, you need to access the dashboard.
-<br/> Here are the different ways to access it:
+<br/> Here are the different ways to get there:
 
 ## Using the /dashboard command
-Go to the Discord server you want to configure and access a channel where you can execute commands. Then type the command `/dashboard` in this channel and click on the button titled `Dashboard`.
-<br/> You will be redirected to your server's dashboard page and may need to authenticate with your Discord account. If so, simply click the `Authorize` button at the bottom right.
+Go to the Discord server you want to configure and open any text channel. Type the `/dashboard` command and click the `Dashboard` button.
+<br/> You'll be redirected to your server's dashboard page. You may need to log in with your Discord account — if so, simply click `Authorize` at the bottom right.
 
-![Command /dashboard on a Discord server with John-Bot](../.gitbook/assets/base_command_dashboard.png)
+![/dashboard command on a Discord server with John-Bot](../.gitbook/assets/base_command_dashboard.png)
 
 ## Via the website
-Go to John-Bot's website at: https://johnbot.app/ and click on the button at the top titled `Dashboard`. You may need to authenticate with your Discord account. If so, simply click the `Authorize` button at the bottom right. Then, choose the Discord server you want to configure and click on it. You will then be redirected to your server's dashboard page.
+Go to John-Bot's website at: https://johnbot.app/ and click the `Dashboard` button at the top. You may need to log in with your Discord account — if so, simply click `Authorize` at the bottom right. Then, pick the Discord server you want to configure and click on it. You'll be redirected to your server's dashboard page.
 
-## With the exact web address
-You can directly access your server's dashboard by entering the following format into your web browser: `https://johnbot.app/dashboard/guildId`
-<br/> Replace `guildId` with your server's identifier¹.
+## Using the direct URL
+You can go directly to your server's dashboard by entering the following URL in your browser: `https://johnbot.app/dashboard/guildId`
+<br/> Replace `guildId` with your server's ID¹.
 
-# :flag_fr: Set the Language
-Before starting any configuration, it is advisable to choose the display language for John-Bot.
-Find out how to do it: [Change Your Server's Language](../usage/configuration/language.md)
+# :flag_gb: Set the Language
+Before you start any configuration, we recommend choosing John-Bot's display language.
+Find out how: [Change Your Server's Language](../usage/configuration/language.md)
 
 # :gem: Activate John-Bot Premium
 
-John-Bot Premium is the paid version of John-Bot that provides more features to make your Discord server even better. Subscribing to a Premium plan also helps cover the costs associated with running the application, allowing for a fully free version of John-Bot for everyone, no strings attached.
+John-Bot Premium is the paid version of John-Bot that unlocks additional features to take your Discord server to the next level. Subscribing to a Premium plan also helps cover the costs of running the bot, which is what makes it possible to offer a fully-featured free version of John-Bot to everyone.
 
 {% hint style="info" %}
-You can check the comprehensive list of Premium benefits compared to the free version of John-Bot at: [https://johnbot.app/premium](https://johnbot.app/premium)
+You can view the full list of Premium benefits compared to the free version at: [https://johnbot.app/premium](https://johnbot.app/premium)
 {% endhint %}
 
 ## Subscribe to John-Bot Premium
 
-First, go to [https://johnbot.app/premium](https://johnbot.app/premium) and choose the plan that fits your needs. You will be redirected to the Patreon payment page, where you will need to create an account. Follow the steps on Patreon until your subscription is confirmed.
+First, head to [https://johnbot.app/premium](https://johnbot.app/premium) and choose the plan that suits you. You'll be redirected to the Patreon payment page, where you'll need to create an account. Follow the steps on Patreon until your subscription is confirmed.
 
 ## Link Your Patreon Account
 
-Next, you will need to link your Patreon account on the John-Bot dashboard. To do this, go to the dashboard of one of your servers and click on your profile picture in the top left. Make sure your Patreon account is properly linked.
+Next, you'll need to link your Patreon account on the John-Bot dashboard. To do this, go to the dashboard of one of your servers and click on your profile picture in the top left corner. Make sure your Patreon account is properly linked.
 
-## Activate John-Bot Premium
+## Activate John-Bot Premium on a Server
 
-Finally, you will need to activate John-Bot Premium on the desired servers by using the command `/premium` on those servers and confirming the activation. To deactivate John-Bot Premium, you can enter the command `/premium` and click on `reset`.
+Finally, activate John-Bot Premium on the servers of your choice by running the `/premium` command on each one and confirming the activation. To deactivate John-Bot Premium, run the `/premium` command again and click `reset`.
 
 ## Manage or Cancel Your Subscription
 
-To change your plan, go to the [Subscription section of the John-Bot page on Patreon](https://www.patreon.com/c/johnbot/membership). You will have access to the three available plans and can choose the one that suits your needs.
-<br/> To cancel your subscription, go to the [Memberships section in your Patreon settings](https://www.patreon.com/settings/memberships). You can cancel your subscription by revealing the additional options and clicking on `Cancel Subscription`.
+To switch plans, go to the [Subscription section on the John-Bot Patreon page](https://www.patreon.com/c/johnbot/membership). You'll see all three available plans and can pick the one that fits your needs.
+<br/> To cancel your subscription, go to the [Memberships section in your Patreon settings](https://www.patreon.com/settings/memberships). Expand the additional options and click `Cancel subscription`.
 
 ---
-1: Find your server's identifier: [Where to Find My User/Server/Message ID?](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID)
+1: Find your server's ID: [Where can I find my User/Server/Message ID?](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID)

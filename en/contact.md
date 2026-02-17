@@ -1,30 +1,41 @@
 ---
 description: >-
-  Discover the different ways to contact the John-Bot team and choose the one that suits you best.
+  Discover the different ways to contact the John-Bot team and choose the one that works best for you.
+layout:
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
 ---
 
 # Contact
 
 ## :speech_balloon: Discord Support Server
 
-The Discord support server is the fastest way to contact the team and allows you to submit most requests. Through a ticket system¹, each member of the support team instantly receives a notification and can respond directly in a temporary channel with their own Discord account.
+The Discord support server is the fastest way to reach the team and covers most types of requests. Through a ticket system¹, every support team member is instantly notified and can respond directly in a temporary channel using their own Discord account.
 
-To submit a request, join the [John-Bot Discord server](https://discord.com/invite/YgRbfQ3Mkg), go to the [#support](https://discord.com/channels/959269961572962314/960211222211489903) channel, and click the "Open a ticket" button on the corresponding message. 
+To submit a request, join the [John-Bot Discord server](https://discord.com/invite/YgRbfQ3Mkg), head to the [#support](https://discord.com/channels/959269961572962314/960211222211489903) channel, and click the ":flag_gb: English" button on the corresponding message.
 
-The window that appears allows you to fill in the assistance reason to save time. If you still do not want to fill in this field, click directly on the blue "Send" button located at the bottom right of the window. 
+The pop-up window lets you specify the reason for your request to save time. If you'd rather skip this step, just click the blue "Submit" button at the bottom right of the window.
 
-After a few seconds of waiting, you will receive a confirmation message in the channel. It will indicate the channel where your request was created. Simply click on the name of the corresponding channel. You are now in the textual channel where communication with the team can take place. Wait for the team to respond or start the conversation to clarify your request.
+After a few seconds, you'll receive a confirmation message in the channel with the name of the channel where your request was created. Simply click on that channel name. You'll now be in the text channel where you can communicate with the team. Wait for a response or start the conversation to describe your request.
 
 ## :e_mail: Email
 
-John-Bot has two email addresses. One for general questions and one for legal questions.
+John-Bot has two email addresses — one for general inquiries, and one for legal matters.
 
-**General Questions:** [team@johnbot.app](mailto:team@johnbot.app)
+**General inquiries:** [team@johnbot.app](mailto:team@johnbot.app)
 
-**Legal Questions:** [legal@johnbot.app](mailto:legal@johnbot.app)
+**Legal inquiries:** [legal@johnbot.app](mailto:legal@johnbot.app)
 
-To submit a request, simply send an email to the corresponding address in compliance with email messaging standards.
+To submit a request, simply send an email to the appropriate address.
 
 ---
 
-1 : [Ticket system](../en/usage/configuration/tickets.md) powered by John-Bot
+1: [Ticket system](usage/configuration/tickets.md) powered by John-Bot

@@ -1,135 +1,135 @@
 ---
 description: >-
-  Here you will find information about creating and configuring giveaways or contests.
+  Here you'll find information about creating and configuring giveaways.
 ---
 
 # Giveaway
 
-**Video tutorial linked to this page:** [Organize a giveaway on your server with John-Bot - Tutorial #8](https://jnbt.xyz/tutorials/giveaways)
+**Video tutorial related to this page:** [Host a Giveaway on Your Server with John-Bot - Tutorial #8](https://jnbt.xyz/tutorials/giveaways)
 
 ## :rocket: Introduction
 
-A giveaway is the perfect way to reward your members by putting a prize at stake and letting chance decide. Indeed, a giveaway is simply a contest in the form of a lottery. Participants can enter via a simple button, and the drawing is conducted at the chosen time.
+A giveaway is the perfect way to reward your members by putting a prize up for grabs and letting a random draw decide the winner. Participants can enter with just one click, and the drawing happens automatically at the scheduled time.
 
-There are two ways to create a giveaway: one is quick but less customizable, while the other is more customizable but requires more time and precision. Choose the one that suits you best by comparing them, and learn how to set them up.\
-Also, discover how to interact with a giveaway to participate, as well as the commands for managing a giveaway.
+There are two ways to create a giveaway: one is quick but less customizable, while the other offers full customization but takes a bit more time. Compare both and pick the one that suits your needs.
+Also learn how members can interact with a giveaway to enter, and discover the commands for managing your giveaways.
 
 ## :zap: Quick and Simple Method
 
-If you want to create a giveaway quickly and efficiently, opt for this method.
+If you want to launch a giveaway quickly and efficiently, go with this method.
 
-First, access the server where you want to launch the giveaway. Make sure you have administrator permission.\
-Then, enter the command /giveaway create. You will have access to several options:
+First, head to the server where you want to launch the giveaway. Make sure you have administrator permissions.
+Then, type the command `/giveaway create`. You'll have access to several options:
 
-* You need to choose the duration of the giveaway, i.e., the amount of time that will elapse before the automatic drawing and announcement of the results.\
-  To do this, enter the number of second·s, minute·s, hour·s, or day·s, followed by the unit (`s` for second, `min` for minute, `h` for hour, and `d` for day).
-* You need to choose the number of winners who will be selected to receive the prize at stake. Simply enter an integer greater than 0.
-* You need to choose the prize you want to put up for grabs. The field is completely free; simply enter the name of the prize, whether it is physical, virtual, or otherwise.
-* Finally, you can choose the channel in which the giveaway will take place if it differs from the channel in which you are entering the command to set up the giveaway. This option is optional; if left blank, the giveaway will be launched directly in the channel where the command was sent.
+* **Duration:** Set how long the giveaway will last before the automatic drawing and results announcement.
+  Enter a number followed by a unit (`s` for seconds, `min` for minutes, `h` for hours, `d` for days).
+* **Number of winners:** Set how many winners will be drawn. Simply enter a whole number greater than 0.
+* **Prize:** Enter the name of the prize you want to put up for grabs. The field is freeform — it can be physical, virtual, or anything else.
+* **Channel (optional):** Choose the channel where the giveaway will be posted, if different from the one you're typing in. If left blank, the giveaway will launch in the current channel.
 
-![Example of a configuration with the /giveaway create command](../../.gitbook/assets/giveaway\_command\_create.png)
+![Example configuration with /giveaway create](../../.gitbook/assets/giveaway_command_create.png)
 
-## :tools: More Comprehensive and Customizable Method
+## :tools: Full Customization Method
 
-If you want to create a complex and detailed giveaway by integrating original elements, opt for this method.
+If you want to create a detailed and polished giveaway with custom visuals, use this method.
 
 ### Accessing the Dashboard
 
-First, go to John-Bot's dashboard using the method of your choice. Learn how to do this: [How to access the dashboard](../../guide/guide.md#pushpin-accessing-the-dashboard)
+First, go to the John-Bot dashboard using your preferred method. Learn how: [How to access the dashboard](../../guide/guide.md#pushpin-access-the-dashboard)
 
 ### Accessing Settings
 
-Next, look for `Giveaways` in the right column, under your server's logo and banner. You will now be on a page where you can view all the giveaways on your server, whether they are finished or ongoing.
+Next, look for `Giveaways` in the right-hand column, under your server's logo and banner. You'll see a page listing all your server's giveaways, whether ongoing or finished.
 
 ### Creating and Configuring
 
-You arrive at the page where you can configure your giveaway. Here's how to configure the different settings:
+Here's how to configure each setting for your giveaway:
 
 #### Name
 
-In this field, choose the name that can define your giveaway. It will be displayed in the title of the sent message as well as on the dashboard to be able to spot it among the others.
+Choose a name to identify your giveaway. It will appear in the title of the sent message as well as on the dashboard so you can spot it among others.
 
 #### Sending Channel
 
-In this field, choose where the giveaway will be sent and visible to members. After sending the giveaway, you will not be able to change the channel.
+Choose the channel where the giveaway will be posted and visible to members. Once sent, the channel cannot be changed.
 
-#### Reward
+#### Prize
 
-In this field, choose the prize you want to put up for grabs. The field is completely free; simply enter the name of the prize, whether it is physical, virtual, or otherwise. It is not possible to automate the distribution of the prize; you will have to handle it manually.
+Enter the name of the prize you want to put up for grabs. The field is freeform — it can be physical, virtual, or anything else. Prize distribution is not automated; you'll need to handle it manually.
 
 #### End Date
 
-This field allows you to set the exact date and time of the drawing. On this date, a message will be automatically sent in response to the original giveaway message to announce the winner(s).
+Set the exact date and time of the drawing. On this date, a message will automatically be posted in reply to the original giveaway message to announce the winner(s).
 
 #### Number of Winners
 
-In this field, define how many members can be declared winners of the prize at stake.
+Set how many members can be declared winners of the prize.
 
 #### Maximum Number of Participants :gem:
 
-In this field, you can choose to limit the number of members who can enter the drawing.
+Optionally limit the number of members who can enter the drawing.
 
-#### Display of Participant List
+#### Participant List Display
 
-You can disable the display of the participant list by unchecking the associated box.
+You can disable the participant list button by unchecking the associated box.
 
 {% hint style="info" %}
-Find out how this button works in the [direct interaction with the giveaway](giveaway.md#direct-interaction-with-the-giveaway) section.
+Learn how this button works in the [direct interaction with the giveaway](giveaway.md#direct-interaction-with-the-giveaway) section.
 {% endhint %}
 
 #### Allowed & Ignored Roles
 
-In these two fields, you can restrict the giveaway to certain roles or, conversely, disallow certain roles from participating in the giveaway.\
-To do this, select the desired roles from the corresponding dropdown menu.
+Use these two fields to restrict the giveaway to certain roles or block certain roles from entering.
+Select the desired roles from the corresponding dropdown.
 
 #### Embed
 
-The `embed` section allows you to format the message that will be sent and visible to the member in the channel.\
-You can customize it as you like using the many options provided.
+The `embed` section lets you format the message that will be sent and displayed to members.
+Customize it to your liking with the many options available.
 
 #### Button :gem:
 
-The `button` section allows you to customize the button that will be attached to the giveaway message and allows members to participate in the giveaway.\
-You can customize it as you like using the many options provided, such as color, displayed text, or displayed emoji.
+The `button` section lets you customize the participation button attached to the giveaway message.
+You can change its color, text, and emoji.
 
 ### Finalize and Send
 
-Once your giveaway is fully configured, check that everything is correct and click on the green button located at the top left, `Create & Send`. Your giveaway will be sent and started in the specified channel with all its customizations. It is advisable to write an announcement message to inform your members if the giveaway is organized in honor of an important event.
+Once everything is set, double-check your configuration and click the green `Create & Send` button at the top left. Your giveaway will go live in the specified channel with all your customizations. Consider writing an announcement message if the giveaway is tied to a special event.
 
-## :gear: Giveaway Operation
+## :gear: How Giveaways Work
 
 ### Giveaway Information
 
-In the embed message, you will find some information about the giveaway. Here are explanations for each piece of information available on the message.
+The embed message contains key information about the giveaway. Here's what each field means:
 
-* **Name or Title** : You can find the giveaway name in the embed title (bold and titled upper part).
-* **End Date and Time** : You can find the remaining time as well as the date and time at which the giveaway will end. The corresponding field is `Ends:`, located below the title in the embed body. The field is renamed `Ended` once the giveaway is over.
-* **Giveaway Author** : You can find out the user who initiated the giveaway. Their Discord account is directly identified in the `Launched by:` field.
-* **Number of Participants** : You can know the number of members who are registered for the drawing in the `Participants:` field.
-* **Number of Winners or Winner(s)** : You can know the number of members who will be declared winners of the prize after the drawing in the `Winners:` field. This field then displays the winner(s) by mention.
+* **Name / Title:** Found in the embed title (bold text at the top).
+* **End Date and Time:** Shows the remaining time and the exact end date/time. The field is labeled `Ends:` below the title. It changes to `Ended` once the giveaway is over.
+* **Giveaway Author:** Shows who launched the giveaway, identified by their Discord account in the `Launched by:` field.
+* **Number of Participants:** Shows how many members have entered, in the `Participants:` field.
+* **Number of Winners / Winner(s):** Shows how many winners will be drawn, in the `Winners:` field. After the drawing, this field displays the winner(s) by mention.
 
 ### Direct Interaction with the Giveaway
 
-#### Participate Button
+#### Participation Button
 
-You can enter the drawing with the customizable button by the giveaway author located under the giveaway embed, to the left of the `Participants` button.
+Enter the drawing by clicking the customizable button located below the giveaway embed, to the left of the `Participants` button.
 
 #### Participants Button
 
-You can view the list of people entered into the drawing by clicking the `Participants` button located under the giveaway embed, to the right of the participation button.
+View the list of everyone who has entered by clicking the `Participants` button located below the giveaway embed, to the right of the participation button.
 
 {% hint style="info" %}
-Find out how to configure this button in the [create and configure](giveaway.md#create-and-configure) section of this page.
+Learn how to configure this button in the [create and configure](giveaway.md#creating-and-configuring) section.
 {% endhint %}
 
 ![Example of a typical giveaway message](../../.gitbook/assets/giveaway_example.png)
 
 ### Commands
 
-| Command | Description |
-| ----- | ----- |
-| /giveaway create | Start a giveaway. |
-| /giveaway delete | Deletes a giveaway. |
-| /giveaway end | Ends a giveaway. |
-| /giveaway list | Shows the giveaways list of the server.v |
-| /giveaway reroll | Choose new winners for a giveaway. |
+| Command            | Description                              |
+| ------------------ | ---------------------------------------- |
+| /giveaway create   | Launches a giveaway.                     |
+| /giveaway delete   | Deletes a giveaway.                      |
+| /giveaway end      | Ends a giveaway early.                   |
+| /giveaway list     | Shows all giveaways on the server.       |
+| /giveaway reroll   | Picks new winners for a giveaway.        |

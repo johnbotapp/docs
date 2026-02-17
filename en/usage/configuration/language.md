@@ -1,54 +1,54 @@
 ---
 description: >-
-  Here you will find information about configuring the display language of John-Bot.
+  Here you'll find information about configuring John-Bot's display language.
 ---
 
-**Video tutorial related to this page:** [Prepare your server for John-Bot configuration (prerequisites) - Tutorial #2](https://jnbt.xyz/tutorials/start)
+**Video tutorial related to this page:** [Preparing Your Server for John-Bot Configuration (Prerequisites) - Tutorial #2](https://jnbt.xyz/tutorials/start)
 
 # :rocket: Introduction
 
-Depending on your server, you can set the language in which John-Bot will interact. You can also change the language in which the website is displayed.
+You can set the language in which John-Bot interacts on your server. You can also change the language the website is displayed in.
 
 # :robot: Server
 
-### Access the dashboard
+### Access the Dashboard
 
-First, go to the John-Bot dashboard through your preferred method. Learn how to do it: [How to access the dashboard](../../guide/guide.md#pushpin-access-the-dashboard)
+First, go to the John-Bot dashboard using your preferred method. Learn how: [How to access the dashboard](../../guide/guide.md#pushpin-access-the-dashboard)
 
-### Access settings
+### Access Settings
 
-Next, look for `Settings` on the right column, below your server's logo and banner. You will now be on a page where you can access all the general settings related to the server.
+Next, look for `Settings` in the right-hand column, under your server's logo and banner. You'll now be on a page where you can access all general settings for your server.
 
-### Set the language
+### Set the Language
 
-Once in the `Settings` category, look for the `Language` option. Set the language of your choice using the associated dropdown menu.
+Once in the `Settings` category, look for the `Language` option. Choose your preferred language from the dropdown menu.
 
 {% hint style="warning" %}
-Currently, all of John-Bot's systems are available in only two languages: French and English.
+Currently, John-Bot is only available in two languages: French and English.
 {% endhint %}
 
 {% hint style="warning" %}
-John-Bot is translated by people like you, volunteers in their spare time, who contribute to internationalizing the world's resources. Join them: [Crowdin Project](https://crowdin.johnbot.app/)
-<br/> If you notice a translation error, contact us or correct it directly. [Contact the John-Bot team](../../contact.md)
+John-Bot is translated by volunteers like you who contribute their free time to help internationalize the project. Join them: [Crowdin Project](https://crowdin.johnbot.app/)
+<br/> If you spot a translation error, contact us or correct it yourself. [Contact the John-Bot team](../../contact.md)
 {% endhint %}
 
 # :globe_with_meridians: Website
 
-The steps to change the display language of the entire website (including the dashboard) vary depending on your device type.
+The steps to change the website's display language (including the dashboard) depend on your device.
 
-## Desktop Computer
+## Desktop
 
-On a computer, click the button at the top right of the website and select your language from the dropdown menu. If you're on the dashboard, click on your profile picture and select `Language`.
+On desktop, click the button at the top right of the website and select your language from the dropdown menu. If you're on the dashboard, click on your profile picture and select `Language`.
 
 ## Mobile
 
-On mobile, click the button at the top right of the website and select your language from the dropdown menu. If you're on the dashboard, click on your profile picture and select `Language`.
+On mobile, tap the button at the top right of the website and select your language from the dropdown menu. If you're on the dashboard, tap on your profile picture and select `Language`.
 
 {% hint style="warning" %}
-Currently, all of John-Bot's systems are available in only two languages: French and English.
+Currently, John-Bot is only available in two languages: French and English.
 {% endhint %}
 
 {% hint style="warning" %}
-John-Bot is translated by people like you, volunteers in their spare time, who contribute to internationalizing the world's resources. Join them: [Crowdin Project](https://crowdin.johnbot.app/)
-<br/> If you notice a translation error, contact us or correct it directly. [Contact the John-Bot team](../../contact.md)
+John-Bot is translated by volunteers like you who contribute their free time to help internationalize the project. Join them: [Crowdin Project](https://crowdin.johnbot.app/)
+<br/> If you spot a translation error, contact us or correct it yourself. [Contact the John-Bot team](../../contact.md)
 {% endhint %}

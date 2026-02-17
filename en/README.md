@@ -1,25 +1,32 @@
 ---
 description: >-
-  Do you have questions when using John-Bot? The documentation provides an answer. Discover John-Bot and how its documentation works.
+  Got questions while using John-Bot? The documentation has you covered. Learn about John-Bot and how to navigate its documentation.
 cover: .gitbook/assets/banner.png
 coverY: 0
 ---
 
-# :question: About John-Bot
-**John-Bot is a bot offered on the Discord platform designed to facilitate the management of Discord servers where it is present.** It offers a large number of useful features, including a ticket system, a logging system, an arrival & departure system, an experience-based leveling system, a giveaway system, and an advanced moderation system.¹
+# Home
 
-# :book: Documentation
-John-Bot's documentation is intended to familiarize you with the various features offered by John-Bot. It allows you to quickly find a written answer to the numerous questions that may arise when using John-Bot, particularly during its configuration.
-Each page of the documentation is linked to a video tutorial. Find all official tutorials via this YouTube playlist: [Tutorials - John-Bot](https://jnbt.xyz/tutorials)
+## :question: About John-Bot
 
-# :gear: Operation
-The documentation is divided into several categories comprising pages and sub-pages. These sub-pages are divided into sections and even sub-sections. Such a structure may seem excessive and overly complex, but it actually allows you to find the answer to a question in just a few moments. Indeed, you can increasingly orient yourself towards the expected answer without having to search through the entire documentation for your answer.
-<br/> Some symbols can also help you quickly understand certain information:
-* :gem: : option reserved for [John-Bot Premium](https://johnbot.app/premium) members
+**John-Bot is a Discord bot designed to simplify the management of Discord servers.** It comes packed with a wide range of useful features, including a ticketing system, a logging system, join & leave actions, an XP-based leveling system, a giveaway system, and an advanced moderation system, among others.¹
 
-# :no_entry_sign: Limits
-The documentation may sometimes not be able to answer one of your questions, in which case you can contact John-Bot's support team via the Discord support server or any other means².
+## :book: Documentation
 
----
-¹: the list is not exhaustive
-<br/> ²: see the [Contact](./contact.md) page
+John-Bot's documentation is here to help you get familiar with everything John-Bot has to offer. It provides quick, written answers to the many questions that may come up while using the bot — especially during setup and configuration. Each documentation page is tied to a video tutorial. You can find all official tutorials in this YouTube playlist: [Tutorials - John-Bot](https://jnbt.xyz/tutorials)
+
+## :gear: How It Works
+
+The documentation is organized into several categories, each containing pages and sub-pages. These sub-pages are broken down into sections and even sub-sections. While this structure may seem complex at first, it actually makes it easy to find what you're looking for in just a few clicks. You can narrow down to the exact answer you need without having to dig through the entire documentation.
+Some icons may also help you quickly identify certain information:
+
+* :gem: : feature reserved for [John-Bot Premium](https://johnbot.app/premium) members
+
+## :no_entry_sign: Limitations
+
+The documentation may not always cover every question you have. If that's the case, feel free to reach out to John-Bot's support team through the Discord support server or any other available method².
+
+***
+
+1: this list is not exhaustive
+2: see the [Contact](contact.md) page

@@ -1,340 +1,340 @@
 ---
 description: >-
-  Here, you will find information about John-Bot's ticket system configuration.
+  Here you'll find information about configuring John-Bot's ticketing system.
 ---
 
 # Tickets
 
-**Video tutorial related to this page:** [Setting up John-Bot's Ticket System - Tutorial #4](https://jnbt.xyz/tutorials/tickets)
+**Video tutorial related to this page:** [Setting Up John-Bot's Ticketing System - Tutorial #4](https://jnbt.xyz/tutorials/tickets)
 
 ## :rocket: Introduction
 
-A ticket system allows members to contact the server team (staff) in a private channel created upon request. John-Bot takes this type of system to the next level by adding the ability to choose the most appropriate reason for an assistance request and specify it using a modal on Discord.
+A ticketing system lets members reach out to the server's staff in a private channel created on demand. John-Bot takes this system to the next level by adding features like choosing the most appropriate reason for a support request and specifying it through a modal on Discord.
 
-To create a ticket system, you need to create one or more panels, each corresponding to a type of assistance request (for example, one for contacting moderation, one for partnership requests, and another for administrative inquiries). Then, you'll need to create one or more embeds that correspond to the messages allowing members to interact to create a ticket. You can add multiple panels to each one. Finally, you have the option to create one or more modals that correspond to the forms appearing when a member interacts with one of the buttons and thus accesses a panel.
+To set up a ticketing system, you'll need to create one or more panels — each one representing a type of support request (e.g., one for contacting moderation, one for partnership requests, and another for administrative inquiries). Then, you'll create one or more embeds — these are the messages that members interact with to open a ticket. You can link multiple panels to each embed. Finally, you can create one or more modals — forms that appear when a member clicks a button to access a panel.
 
 ## :earth_africa: Global Configuration
 
 ### Accessing the Dashboard
 
-First, go to John-Bot's dashboard using your preferred method. Learn how: [How to Access the Dashboard](../../guide/guide.md#pushpin-accessing-the-dashboard)
+First, go to the John-Bot dashboard using your preferred method. Learn how: [How to access the dashboard](../../guide/guide.md#pushpin-access-the-dashboard)
 
 ### Accessing Settings
 
-Next, look for `Tickets` on the right-hand column, under your server's logo and banner. You will now be on a page where you can configure all your server settings related to the ticket system and view transcripts.
+Next, look for `Tickets` in the right-hand column, under your server's logo and banner. You'll now be on a page where you can configure all your server's ticketing settings and view transcripts.
 
 ### Logs
 
-Logs record all ticket-related actions in a server channel.\
-When a ticket is deleted, a certain amount of information related to that ticket will be made available in a message. You will find the ticket ID, the user who initiated the ticket, the user who closed the ticket, the user who deleted the ticket, the ticket's opening date, the ticket's name, the assistance team member who handled the ticket, and the list of users who wrote a message in the ticket (excluding John-Bot). Also, under this message, you can find the link to the ticket transcript, provided the option is activated as indicated later on this page. This is attached to the message but is difficult to read and access.
+Logs record all ticket-related actions in a server channel.
+When a ticket is deleted, a message will be posted with key information about that ticket: the ticket ID, the user who opened it, the user who closed it, the user who deleted it, the opening date, the ticket name, the support team member who handled it, and a list of users who sent messages in the ticket (excluding John-Bot). Below this message, you'll also find a link to the ticket transcript — provided you've enabled the option as described later on this page. The transcript is attached to the message but can be hard to read and access directly.
 
-![Example of a ticket logs message](../../.gitbook/assets/tickets_logs_example.png)
+![Example of a ticket log message](../../.gitbook/assets/tickets_logs_example.png)
 
-To enable logs for ticket deletion, simply check the `Enable logs` box and select the channel where you want to store these messages.
+To enable ticket deletion logs, simply check the `Enable logs` box and select the channel where you want these messages to be stored.
 
 {% hint style="info" %}
-It is strongly recommended to make the ticket logs channel private. Some information could be private and should not be accessible to just anyone but to the trusted team.
+It is strongly recommended to make the ticket logs channel private. Some information may be sensitive and should only be accessible to trusted team members.
 {% endhint %}
 
 ### Global Ticket Limit
 
-This option limits the number of tickets open simultaneously by a member on the server, across all panels. If a ticket limit is later applied to any panel, it will override this for that panel. Simply choose the maximum number of tickets with the corresponding field.
+This option limits the total number of tickets a member can have open at the same time across all panels. If a per-panel ticket limit is set later, it will override this global limit for that specific panel. Simply choose the maximum number of tickets in the corresponding field.
 
 ### Transcripts
 
-A transcript allows you to review the conversation history of a ticket. They can be very useful for future reference, issue tracking, or even team training. John-Bot's transcripts allow you to view the conversation history in a layout simulating Discord's original layout to make reading more enjoyable and coherent.
+A transcript lets you review the full conversation history of a ticket. They're incredibly useful for future reference, issue tracking, or even team training. John-Bot's transcripts display the conversation in a layout that mirrors Discord's native interface, making it easy and natural to read.
 
-#### Enable Transcripts
+#### Enabling Transcripts
 
-To enable transcripts, you must first have enabled ticket logs and set a channel for sending logs. Once done, simply click the `Enable transcripts` button.
+To enable transcripts, you must first have ticket logs enabled with a designated log channel. Once that's done, simply click the `Enable transcripts` button.
 
-#### View Transcripts
+#### Viewing Transcripts
 
-You can view transcripts in two different ways:
+You can view transcripts in two ways:
 
-* First, you can go to the dashboard, then to the `Tickets` page, and click the button in the top right corner `View transcripts`. You will then see a list of all transcripts stored for your server as well as a search engine to help you find the one you're looking for.
-* Second, you can go to the ticket logs channel directly on your Discord server and search for the message corresponding to the desired transcript. You can then click the button linked to the message `View transcript` and be redirected to John-Bot's viewer.
+* Go to the dashboard, then to the `Tickets` page, and click the `View transcripts` button in the top right corner. You'll see a list of all stored transcripts for your server along with a search engine to help you find the one you're looking for.
+* Head to the ticket logs channel directly on your Discord server and find the message for the desired transcript. Click the `View transcript` button attached to the message, and you'll be redirected to John-Bot's transcript viewer.
 
 {% hint style="info" %}
-If you can't find the transcript you're looking for, it's because it's no longer stored because the ticket logs message associated with that ticket has been deleted or your ticket predates January 26, 2024. In the first situation, there's nothing to do, your transcript is permanently erased. In the second situation, simply search for the ticket logs message associated with the desired ticket, download the .html file attached to the message, and open it in your .html file viewer. Web browsers (Mozilla Firefox, Microsoft Edge, Opera, Google Chrome...) generally support this file type.
+If you can't find a transcript, it's because the log message for that ticket was deleted, or the ticket was created before January 26, 2024. In the first case, the transcript is permanently lost. In the second case, look for the log message for the desired ticket, download the .html file attached to it, and open it in your browser. Web browsers (Firefox, Edge, Opera, Chrome, etc.) natively support this file type.
 {% endhint %}
 
-### Exclusion Role·s
+### Exclusion Roles
 
-Exclusion roles prevent certain members from opening tickets. When a member has an exclusion role, they will be unable to create a ticket. Choose one or more roles from your list of roles in the corresponding field to configure this option.
+Exclusion roles prevent certain members from opening tickets. When a member has an exclusion role, they won't be able to create a ticket. Select one or more roles from your role list in the corresponding field.
 
 ## :jigsaw: Panel Configuration
 
 ### Create a Panel
 
-Before you start configuring your panel(s), you need to create them. To do this, simply click the `Create a Panel` button located under the global settings.
+Before you start configuring panels, you need to create them. Simply click the `Create a panel` button located below the global settings.
 
 ### Duplicate a Panel
 
-You can also create a panel from an existing one to retain exactly the same settings and customize it. This avoids having to reconfigure all the settings for a minor difference between the two panels. To do this, simply click the `Duplicate` button corresponding to the desired panel and confirm your choice via the appearing window.
+You can also create a panel from an existing one to keep the same settings and customize it from there. This saves you from having to reconfigure everything when there's only a minor difference between two panels. Click the `Duplicate` button next to the desired panel and confirm.
 
-### Modify a Panel
+### Edit a Panel
 
-To modify the settings of an existing panel, simply click the `Edit` button corresponding to the desired panel.
+To modify an existing panel's settings, click the `Edit` button next to it.
 
 ### Delete a Panel
 
-To delete an existing panel, simply click the `Delete` button corresponding to the desired panel and confirm your choice via the appearing window.
+To delete an existing panel, click the `Delete` button next to it and confirm.
 
 ### Configure a Panel
 
-Once in the settings of a panel, you can configure numerous options to customize the system according to your needs.\
-Once configurations are done, simply click the green `Save` button located at the bottom right of the configuration window. If you do not wish to keep your changes, simply click `Cancel`.
+Once in a panel's settings, you can configure many options to customize the system to your needs.
+When you're done, click the green `Save` button at the bottom right. To discard your changes, click `Cancel`.
 
 #### Panel Name
 
-The panel name allows you to name it to help you navigate among all your panels, but it will not be displayed to members in any case. It is optional. If you do not give a name yourself, it will automatically be named by a number such as `Panel #1`.
+The panel name helps you organize and identify your panels — it won't be displayed to members. It's optional. If you don't set one, it will automatically be named something like `Panel #1`.
 
 #### Ticket Name
 
-The ticket name corresponds to the name that will be given by default to the channel created specifically for the ticket. You can give it a name to differentiate it using variables. If you do not fill in the field, the name will automatically be `help-{user.name}`.
+The ticket name is the default name given to the channel created for the ticket. You can use variables to give it a unique name. If left blank, the default name will be `help-{user.name}`.
 
 #### Ticket Creation Category
 
-In this field, define the server category in which the channels assigned to the different tickets of the panel will be created. In case of overflow of the category, i.e., when the category reaches its maximum tickets, they will be created outside the category. To set it, choose the desired category from the selection menu in the field or search by typing directly in the field.
+In this field, set the server category where ticket channels for this panel will be created. If the category reaches its channel limit, new tickets will be created outside the category. Choose the desired category from the dropdown or type to search.
 
 #### Ticket Closure Category :gem:
 
-The ticket closure category allows you to get rid of closed tickets to deal with them later. Channels corresponding to closed tickets will be instantly moved to the defined category. To set it, choose the desired category from the selection menu in the field or search by typing directly in the field.
+The closure category lets you move closed tickets to a separate category to deal with them later. Closed ticket channels will be instantly moved to this category. Choose the desired category from the dropdown or type to search.
 
-#### Panel-Linked Model
+#### Panel-Linked Modal
 
-In this field, you can set the model that will appear before ticket opening when the member clicks the button. To do this, choose the desired model from the selection menu in the field or search by typing directly in the field.
+In this field, you can set the modal (form) that will appear before a ticket is opened, when the member clicks the button. Choose the desired modal from the dropdown or type to search.
 
 {% hint style="info" %}
-To learn how to configure a model, see the corresponding documentation category on this page: [Model Configuration](tickets.md#model-configuration).
+To learn how to configure a modal, see the corresponding section on this page: [Modal Configuration](tickets.md#modal-configuration).
 {% endhint %}
 
-#### Period before sending the inactivity reminder :gem:
+#### Inactivity Reminder Delay :gem:
 
-You can choose for how long the ticket must have received no message before sending the inactivity reminder. By default, this duration is one week, or 7 days. This duration has an accuracy of about 6 hours.\
-To set the period before sending the inactivity reminder, select the option that best suits you from the selection menu available in the field.
+You can choose how long a ticket must go without any messages before an inactivity reminder is sent. By default, this is set to one week (7 days). The accuracy is approximately 6 hours.
+Select the option that suits you from the dropdown.
 
 {% hint style="info" %}
-This option is only effective when the \`**Enable inactivity reminder**\` option is activated. To learn how to activate it, see this category on this page: [Enabling the Inactivity Reminder](tickets.md#inactivity-reminder).
+This option only takes effect when `**Enable inactivity reminder**` is turned on. To learn how, see: [Inactivity Reminder](tickets.md#inactivity-reminder).
 {% endhint %}
 
 #### Panel Ticket Limit
 
-The panel ticket limit allows you to limit the number of tickets opened by a member on this same panel. For example, if the panel ticket limit is 2, once the member has opened 2 tickets, they will not be able to open a third ticket until they have closed one of the other two. To set it, choose `Enable` and enter a number in the `Ticket Limit` field.\
-If this limit is set, it overrides the global limit set previously.
+The panel ticket limit restricts the number of tickets a member can have open on this specific panel. For example, if the limit is 2, a member won't be able to open a third ticket until they close one of the other two. To set it, select `Enable` and enter a number in the `Ticket limit` field.
+If set, this overrides the global ticket limit.
 
 #### Team Roles
 
-Team roles allow you to define multiple permissions based on roles. Below, find the detailed explanation for each permission that can be assigned. To define one or more roles for a permission, click on the field and select the desired role(s). You can also enter the role name to search for it.
+Team roles let you define different permissions based on roles. Below is a detailed explanation of each assignable permission. To assign roles to a permission, click the field and select the desired role(s). You can also type to search.
 
-* **Assistance Team Roles:** Members of the assistance team are designated to access the ticket and respond in it. By default, they can also manage, close, reopen the ticket, or use management commands.
-* **Responsible Team Roles:** Members of the responsible team have the same permissions as the assistance team, but with certain privileges such as exclusive ticket management.
-* **Mention Roles on Opening:** Roles to mention on opening will, as their name suggests, be mentioned upon ticket opening, without apparent message, using the "ghost-ping" method. The member originating the ticket will always be mentioned, but choosing a role they have will not mention them twice.
-* **Exclusion Roles:** Exclusion roles prevent certain members from opening tickets in the panel. When a member has an exclusion role, it is impossible for them to create a ticket in the panel.
+* **Support Team Roles:** Support team members have access to the ticket and can respond in it. By default, they can also claim, close, reopen the ticket, or use management commands.
+* **Responsible Team Roles:** Responsible team members have the same permissions as the support team, plus certain privileges such as bypassing exclusive ticket management.
+* **Roles to Mention on Opening:** These roles will be pinged when a ticket is opened, using the "ghost-ping" method (no visible message). The member who opened the ticket is always mentioned, but having a mentioned role won't cause a double ping.
+* **Exclusion Roles:** Exclusion roles prevent certain members from opening tickets on this panel. A member with an exclusion role cannot create a ticket on this panel.
 
 #### Ticket Assignment
 
-Ticket assignment allows the assistance team to better organize. By simply clicking the `Process` button attached to the opening message, the corresponding assistance team member will be designated as the "Handler" of the ticket, and a message will be sent in the channel to report it. To activate this option, simply check the associated box.
+Ticket assignment helps the support team stay organized. When a support team member clicks the `Claim` button on the opening message, they'll be designated as the ticket's "Handler" and a message will be posted in the channel to announce it. To enable this, check the associated box.
 
 {% hint style="info" %}
-This option allows using the \`**Exclusive Ticket Management**\` option. To learn how to activate it, see this category on this page: [Exclusive Ticket Management](tickets.md#exclusive-ticket-management).
+This option is required to use `**Exclusive Ticket Management**`. To learn how, see: [Exclusive Ticket Management](tickets.md#exclusive-ticket-management).
 {% endhint %}
 
 #### Inactivity Reminder
 
-The inactivity reminder reminds all ticket participants that the ticket is inactive by sending a message after a defined period. To activate this option, simply check the associated box.
+The inactivity reminder notifies all ticket participants that the ticket has been inactive by sending a message after a set period. To enable it, check the associated box.
 
 {% hint style="info" %}
-To know how to set the time before sending the reminder, see this category on this page: [Period before sending the inactivity reminder](tickets.md#period-before-sending-the-inactivity-reminder).
+To set how long before the reminder is sent, see: [Inactivity Reminder Delay](tickets.md#inactivity-reminder-delay).
 {% endhint %}
 
 ![Example of a reminder message](../../.gitbook/assets/ticket_rappel_example.png)
 
-#### Private Message Notification
+#### DM Notification
 
-The private message motification is a message sent privately to the member originating the ticket when it is deleted. It allows the member in question to confirm that their ticket has been deleted and also provides them with some information, including the ticket transcript. To activate it, simply check the associated box.
+The DM notification is a private message sent to the member who opened the ticket when it's deleted. It confirms the ticket has been deleted and provides some information, including the ticket transcript. To enable it, check the associated box.
 
-![Example of a private message motification](../../.gitbook/assets/ticket_avertissement%20privé_example.png)
+![Example of a DM notification](../../.gitbook/assets/ticket_avertissement%20privé_example.png)
 
 #### Exclusive Ticket Management
 
-Exclusive management allows only the assistance team member handling the ticket to speak in it, except for administrators and members of the responsible team. To activate this option, simply check the associated box.
+Exclusive management restricts the ticket so only the support team member handling it can write in it — except for administrators and responsible team members. To enable it, check the associated box.
 
-#### Ticket Closure on Member Departure :gem:
+#### Auto-Close on Member Leave :gem:
 
-Ticket closure on member departure automatically closes a ticket when the member who originated it leaves the server. To activate this option, simply check the associated box.
+This option automatically closes a ticket when the member who opened it leaves the server. To enable it, check the associated box.
 
-#### Button Visual
+#### Button Appearance
 
-To make your button more attractive or understandable, you can customize it using the many options provided.
+To make your button more appealing or easier to understand, you can customize it with the options provided.
 
-* **Button Label:** The label allows you to customize the text displayed on the button. By default, it will be identical to the panel name.
-* **Button Description** :gem: **:** The description allows you to give more indication to your button. It is only visible when the dropdown option is activated. Learn how to activate it on this page, in the corresponding section: [Panel Display Style](tickets.md#customization)
-* **Button Emoji:** The emoji allows you to illustrate your button. You can choose from all Discord emojis using the selector.
-* **Button Color:** To specify your button, you can choose between the four colors offered by Discord: blue, green, red, or gray.
+* **Button Label:** Customize the text displayed on the button. By default, it matches the panel name.
+* **Button Description** :gem: **:** Add extra context to your button. This is only visible when the dropdown display style is enabled. Learn how to enable it: [Panel Display Style](tickets.md#customization)
+* **Button Emoji:** Add an emoji to your button. Choose from all Discord emojis using the picker.
+* **Button Color:** Pick from the four colors offered by Discord: blue, green, red, or gray.
 
 #### Role Permissions
 
-* **Create a Ticket:** To define who can create a ticket on this panel, choose one or more roles in the corresponding field. If the field is left empty, all members will be able to create a ticket, provided they do not have a ticket exclusion role.
-* **Claim Ticket:** To define who can claim or process a ticket on this panel, choose one or more roles in the corresponding field. If the field is left empty, all members of the assistance team will be able to create a ticket.
-* **Close Ticket:** To define who can close an open ticket on this panel, choose one or more roles in the corresponding field. If the field is left empty, all members with access to the ticket will be able to close it.
-* **Reopen Ticket:** To define who can reopen a closed ticket on this panel, choose one or more roles in the corresponding field. If the field is left empty, all members of the assistance team will be able to reopen a ticket.
-* **Delete Ticket:** To define who can delete a closed ticket on this panel, choose one or more roles in the corresponding field. If the field is left empty, all members with access to the closed ticket will be able to delete it.
+* **Create a Ticket:** Define who can create a ticket on this panel by selecting one or more roles. If left empty, all members can create a ticket — unless they have an exclusion role.
+* **Claim Ticket:** Define who can claim (process) a ticket on this panel. If left empty, all support team members can claim tickets.
+* **Close Ticket:** Define who can close an open ticket on this panel. If left empty, all members with access to the ticket can close it.
+* **Reopen Ticket:** Define who can reopen a closed ticket on this panel. If left empty, all support team members can reopen tickets.
+* **Delete Ticket:** Define who can delete a closed ticket on this panel. If left empty, all members with access to the closed ticket can delete it.
 
 #### Private Discussion Thread
 
-The private discussion thread allows the assistance team to discuss around the specific subject of the ticket away from prying eyes and without having to create a new channel on the server. To activate it, simply check the associated box. Once the option is activated, you can customize some aesthetic criteria.
+The private discussion thread lets the support team discuss the ticket's topic privately, without creating a new channel on the server. To enable it, check the associated box. Once enabled, you can customize a few settings.
 
 **Thread Name**
 
-In this field, enter the name that will automatically be given when creating the thread. You can use [variables](../../resources/variables.md).
+Enter the name that will automatically be assigned when the thread is created. You can use [variables](../../ressources/variables.md).
 
 **Thread Opening Embed Title**
 
-When opening the private thread, an opening message will automatically be sent. In this field, customize the title that will be given to the embed of this message.
+When the private thread is created, an opening message is automatically sent. Customize the embed title of this message.
 
 **Thread Opening Embed Description**
 
-When opening the private thread, an opening message will automatically be sent. In this field, customize the description that will be given to the embed of this message.
+When the private thread is created, an opening message is automatically sent. Customize the embed description of this message.
 
 #### Opening Message
 
-The opening message will be the first message sent upon ticket opening and will also be pinned. It allows you to obtain some essential information for the ticket as well as a message to guide the member originating the ticket. It also contains answers to the model if the panel has one. You can customize some elements of this message, especially to guide the member originating the ticket.
+The opening message is the first message sent when a ticket is opened and is also pinned. It contains essential ticket information and a message to guide the member. If the panel has a modal, the answers will also be attached here. You can customize several elements of this message.
 
 **Text Message**
 
-The text message is the text that will be displayed outside of the embed, like a regular Discord user. You can use emojis and markdown¹ to customize your text. To disable the text message, leave the field blank.
+The text message is displayed outside the embed, just like a regular Discord message. You can use emojis and Markdown¹ to style your text. To disable the text message, leave the field blank.
 
 ![Example of an opening message with the text message highlighted](../../.gitbook/assets/ticket_message%20d'ouverture_partie%20texte.png)
 
 **Embed**
 
-The embed is the part of the message that can contain several customizable elements and will be displayed below the text message. It is impossible to send it for a regular Discord user. You can use the available fields to customize your embed.
+The embed is the part of the message that supports multiple customizable elements and appears below the text message. Regular Discord users can't send embeds. Use the available fields to customize your embed.
 
-![Example of an opening message with the embed highlighted](  ../../.gitbook/assets/ticket_message%20d'ouverture_partie%20embed.png)
+![Example of an opening message with the embed highlighted](../../.gitbook/assets/ticket_message%20d'ouverture_partie%20embed.png)
 
-* **Enable Opening Embed:** You can check this box if you want to enable the embed in your opening message. If you want to disable the embed, uncheck this box.
-* **Embed Author Icon:** :gem: **:** You can illustrate your embed by adding an image (which can be animated) to your author, only visible when the author has a name.
-* **Embed Author Name:** :gem: **:** You can customize your embed by adding an author, which you can name as you like.
-* **Embed Author Link:** :gem: **:** You can customize your embed by adding a link to an external site to the author.
-* **Embed Title:** You can customize your embed by adding a title.
-* **Embed Description:** You can customize your embed by adding a description.
-* **Embed Color:** You can choose a color to customize your embed using the selector.
-* **Embed Thumbnail Link: :** You can illustrate your embed by adding a thumbnail.
-* **Embed Image Link:** You can illustrate your embed by adding an image.
-* **Embed Footer Icon:** :gem: **:** You can complete your embed with a footer image.
-* **Embed Footer Text:** :gem: **:** You can complete your embed with the footer.
+* **Enable Opening Embed:** Check this box to enable the embed in your opening message. Uncheck to disable.
+* **Embed Author Icon** :gem: **:** Add an image (can be animated) to your embed's author section — only visible when the author has a name.
+* **Embed Author Name** :gem: **:** Add an author to your embed, with any name you like.
+* **Embed Author Link** :gem: **:** Add a link to an external site on the author.
+* **Embed Title:** Add a title to your embed.
+* **Embed Description:** Add a description to your embed.
+* **Embed Color:** Pick a color for your embed using the color picker.
+* **Embed Thumbnail URL:** Add a thumbnail image to your embed.
+* **Embed Image URL:** Add an image to your embed.
+* **Embed Footer Icon** :gem: **:** Add a footer image to your embed.
+* **Embed Footer Text** :gem: **:** Add footer text to your embed.
 
 ## :camera: Embed Configuration
 
 ### Create an Embed
 
-Before you start configuring your embeds, you first need to create them. To do this, simply click on the `Create an embed` button located under the panel settings.
+Before configuring your embeds, you first need to create them. Click the `Create an embed` button located below the panel settings.
 
 ### Duplicate an Embed
 
-You can also create an embed from an existing one to keep the same settings and customize it. This saves you from having to reconfigure all the settings for a minor difference between the two embeds. To do this, simply click on the `Duplicate` button corresponding to the desired embed and confirm your choice via the appearing window.
+You can create an embed from an existing one to keep the same settings and customize it from there. Click the `Duplicate` button next to the desired embed and confirm.
 
 ### Edit an Embed
 
-To edit the settings of an existing embed, simply click on the `Edit` button corresponding to the desired embed.
+To modify an existing embed's settings, click the `Edit` button next to it.
 
 ### Delete an Embed
 
-To delete an existing embed, simply click on the `Delete` button corresponding to the desired embed and confirm your choice via the appearing window.
+To delete an existing embed, click the `Delete` button next to it and confirm.
 
 ### Configure an Embed
 
-Once in the settings of an embed, you can configure many options to customize the system according to your needs. Once the configurations are complete, simply click on the green `Save` button located at the bottom right of the configuration window. If you do not want to keep your changes, simply click `Cancel`.
+Once in an embed's settings, you can configure many options to customize the system. When you're done, click the green `Save` button at the bottom right. To discard your changes, click `Cancel`.
 
 #### Embed Sending Channel
 
-In this field, set in which channel your embed will be sent using the associated selection menu.
+Set which channel your embed will be sent to using the dropdown menu.
 
 #### Panels Linked to the Embed
 
-Choose which panels members will be able to use to open a ticket. Organize your panels in the order you want; they will appear the same way on the embed. To do this, select your panel(s) using the associated selector.
+Choose which panels members will be able to use to open tickets from this embed. Arrange your panels in the order you want — they'll appear in the same order on the embed. Select your panel(s) using the dropdown.
 
 #### Customization
 
-* **Embed Author Icon** :gem: **:** You can illustrate your embed by adding an image (which can be animated) to your author, only visible when the author has a name.
-* **Embed Author Name** :gem: **:** You can customize your embed by adding an author, which you can name as you like.
-* **Embed Author Link** :gem: **:** You can customize your embed by adding a link to an external site to the author.
-* **Embed Title :** You can customize your embed by adding a title.
-* **Panels Display Style :** You can choose the display style of the panels by selecting the desired option.
-* **Embed Description :** You can customize your embed by adding a description.
-* **Embed Color :** You can choose a color to customize your embed using the selector.
-* **Embed Thumbnail Link :** You can illustrate your embed by adding a thumbnail.
-* **Embed Image Link :** You can illustrate your embed by adding an image.
-* **Embed Footer Icon** :gem: **:** You can complete your embed with a footer image. By default, the image will be the bot's profile picture.
-* **Embed Footer Text** :gem: **:** You can complete your embed with the footer. By default, it will be `Powered by johnbot.app`.
+* **Embed Author Icon** :gem: **:** Add an image (can be animated) to your embed's author section — only visible when the author has a name.
+* **Embed Author Name** :gem: **:** Add an author to your embed, with any name you like.
+* **Embed Author Link** :gem: **:** Add a link to an external site on the author.
+* **Embed Title:** Add a title to your embed.
+* **Panel Display Style:** Choose the display style for the panels by selecting the desired option.
+* **Embed Description:** Add a description to your embed.
+* **Embed Color:** Pick a color for your embed using the color picker.
+* **Embed Thumbnail URL:** Add a thumbnail image to your embed.
+* **Embed Image URL:** Add an image to your embed.
+* **Embed Footer Icon** :gem: **:** Add a footer image. Defaults to the bot's profile picture.
+* **Embed Footer Text** :gem: **:** Add footer text. Defaults to `Powered by johnbot.app`.
 
-#### Send an Embed
+### Send an Embed
 
-Once your configuration is complete, you can publish your embed by sending it to the predefined channel. To do this, click on the `Send embed` button associated with the chosen embed.
+Once your configuration is complete, publish your embed by sending it to the designated channel. Click the `Send embed` button next to the chosen embed.
 
 ## :bookmark_tabs: Modal Configuration
 
-A modal is a form that will be offered to the member via a native Discord pop-up to allow them to answer up to 5 questions to specify the subject of the ticket. The results of the answers will be attached to an embed in the ticket opening message.
+A modal is a form presented to the member via a native Discord pop-up, allowing them to answer up to 5 questions to specify the subject of the ticket. The answers will be attached to an embed in the ticket's opening message.
 
 ![Example of a modal](../../.gitbook/assets/ticket_modele_example.png)
 
 ### Create a Modal
 
-Before you start configuring your modal(s), you need to create them. To do this, simply click on the `Create a modal` button located under the embed settings.
+Before configuring your modals, you need to create them. Click the `Create a modal` button located below the embed settings.
 
 ### Duplicate a Modal
 
-You can also create a modal from an existing one to find exactly the same settings and customize it. This avoids having to reconfigure all the settings for a minor difference between the two modals. To do this, simply click on the `Duplicate` button corresponding to the desired modal and confirm your choice via the appearing window.
+You can create a modal from an existing one to keep the same settings and customize it from there. Click the `Duplicate` button next to the desired modal and confirm.
 
 ### Edit a Modal
 
-To edit the settings of an existing modal, simply click on the `Edit` button corresponding to the desired modal.
+To modify an existing modal's settings, click the `Edit` button next to it.
 
 ### Delete a Modal
 
-To delete an existing modal, simply click on the `Delete` button corresponding to the desired modal and confirm your choice via the appearing window.
+To delete an existing modal, click the `Delete` button next to it and confirm.
 
 ### Configure a Modal
 
-Once in the settings of a modal, you can add up to 5 questions according to your needs and define a few settings. Once the configurations are complete, simply click on the green `Save` button located at the bottom right of the configuration window. If you do not want to keep your changes, simply click `Cancel`.
+Once in a modal's settings, you can add up to 5 questions and adjust a few settings. When you're done, click the green `Save` button at the bottom right. To discard your changes, click `Cancel`.
 
 #### Modal Title
 
-In this field, you can set a title for the modal. This helps you to organize but is also displayed at the top of the pop-up.
+Set a title for the modal. This helps you stay organized and is also displayed at the top of the pop-up.
 
 ![Example of a modal with the title highlighted](../../.gitbook/assets/ticket_modele_titre.png)
 
 #### Question Configuration
 
-For each question, you can customize some aesthetic elements and rearrange your questions. To create a new question, click on the `+` button below the list of questions. To delete an existing question, click on the red `Delete` button at the bottom right of the corresponding question.
+For each question, you can customize several visual elements and reorder them. To add a new question, click the `+` button below the question list. To delete a question, click the red `Delete` button at the bottom right of that question.
 
-* **Text Box Label:** The text box label corresponds to the question asked (no.1 in the image).
-* **Text Box Style:** By setting the text box style (no.2 in the image), choose whether the member can respond in a wide or shorter field. This does not change anything about the character limit, which will be 1024 for both.
-* **Text Box Placeholder:** The placeholder is the text displayed transparently in the response field, not on which the member will write (no.3) on the image.
-* **Required Question:** You can specify whether the question must be answered by the member or if they can submit the form without answering it (no.4 on the image). If the question has no answer, the formula `None` will be in place of the answer.
+* **Text Field Label:** The label is the actual question being asked (no. 1 in the image).
+* **Text Field Style:** Choose whether the member can respond in a wide or shorter field (no. 2 in the image). This doesn't affect the character limit, which is 1024 for both.
+* **Text Field Placeholder:** The placeholder is the hint text displayed in the response field before the member types (no. 3 in the image).
+* **Required Question:** Specify whether the question must be answered or if the member can submit the form without filling it in (no. 4 in the image). If left unanswered, `None` will appear in place of the answer.
 
 ![Example of a modal with customizable elements highlighted](../../.gitbook/assets/ticket_modele_example%20aide.png)
 
 {% hint style="info" %}
-Once your modal is configured, don't forget to link it to the panel of your choice: [Modal linked to the panel, configure a panel](tickets.md#modèle-lié-au-panneau)
+Once your modal is configured, don't forget to link it to the panel of your choice: [Panel-linked modal, configure a panel](tickets.md#panel-linked-modal)
 {% endhint %}
 
-## :wrench: List of Commands
+## :wrench: Command List
 
 | Command | Description | Example |
 | -------- | ----------- | ------- |
 | /ticket add | Adds a member to the ticket. | ![Command /ticket add](../../.gitbook/assets/ticket_command_add.png) |
-| /ticket claim | Assigns a member of the support team to handle the ticket. | ![Command /ticket claim](../../.gitbook/assets/ticket_command_claim.png) |
-| /ticket close | Close the ticket. | ![Command /ticket close](../../.gitbook/assets/ticket_command_close.png) |
+| /ticket claim | Assigns a support team member to handle the ticket. | ![Command /ticket claim](../../.gitbook/assets/ticket_command_claim.png) |
+| /ticket close | Closes the ticket. | ![Command /ticket close](../../.gitbook/assets/ticket_command_close.png) |
 | /ticket close-request | Requests ticket closure. | ![Command /ticket close-request](../../.gitbook/assets/ticket_command_close%20request.png) |
-| /ticket create | Create a ticket. | ![Command /ticket create](../../.gitbook/assets/ticket_command_create.png) |
+| /ticket create | Creates a ticket. | ![Command /ticket create](../../.gitbook/assets/ticket_command_create.png) |
 | /ticket delete | Deletes a closed ticket. |  |
-| /ticket open | Opens a closed ticket. | ![Command /ticket open](../../.gitbook/assets/ticket_command_open.png) |
-| /ticket remove | Remove a member from the ticket. | ![Command /ticket remove](../../.gitbook/assets/ticket_command_remove.png) |
-| /ticket rename | Rename the ticket. | ![Command /ticket rename](../../.gitbook/assets/ticket_command_rename.png) |
-| /ticket transfer | Transfer ticket assignment to another member of the support team. | ![Command /ticket transfer](../../.gitbook/assets/ticket_command_transfer.png) |
+| /ticket open | Reopens a closed ticket. | ![Command /ticket open](../../.gitbook/assets/ticket_command_open.png) |
+| /ticket remove | Removes a member from the ticket. | ![Command /ticket remove](../../.gitbook/assets/ticket_command_remove.png) |
+| /ticket rename | Renames the ticket. | ![Command /ticket rename](../../.gitbook/assets/ticket_command_rename.png) |
+| /ticket transfer | Transfers ticket assignment to another support team member. | ![Command /ticket transfer](../../.gitbook/assets/ticket_command_transfer.png) |
 | /ticket unclaim | Removes the ticket assignment from the handler. | ![Command /ticket unclaim](../../.gitbook/assets/ticket_command_unclaim.png) |
 
 ---

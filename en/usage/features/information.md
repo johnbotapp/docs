@@ -1,26 +1,26 @@
 ---
 description: >-
-  Here, you will find the list and description of all the information commands of John-Bot.
+  Here you'll find the list and description of all John-Bot information commands.
 ---
 
 # :rocket: Introduction
-If you want to get information about a server, a user... or even the photo or banner of any user or server and much more, John-Bot's information commands are here for you! Discover all of these commands described precisely on this page.
+Looking for information about a server, a user... or maybe the profile picture or banner of any user or server and much more? John-Bot's information commands have you covered! Explore every command described in detail on this page.
 
-# :clipboard: List of Commands
+# :clipboard: Command List
 | Command | Description | Example |
-| ----- | ----- | ----- |
-| /bot-info | Shows some information about John-Bot. | ![Command /bot-info](../../.gitbook/assets/information_command_bot-info.png) |
-| /user avatar | Shows a user's avatar. | ![Command /user avatar](../../.gitbook/assets/information_command_user%20avatar.png) |
-| /user banner | Shows a user's banner. | ![Command /user banner](../../.gitbook/assets/information_command_user%20banner.png) |
-| /user info | Shows some information about a user. | ![Command /user info](../../.gitbook/assets/information_command_user%20info.png) |
-| /server icon | Shows the server's icon. | ![Command /server icon](../../.gitbook/assets/information_command_server%20icon.png) |
-| /server banner | Shows the server banner. | ![Command /server banner](../../.gitbook/assets/information_command_server%20banner.png) |
-| /server info | Shows some information about the server. | ![Command /server info](../../.gitbook/assets/information_command_server%20info.png) |
-| /server members | Shows some information about members of the server. | ![Command /server members](../../.gitbook/assets/information_command_server%20members.png) |
-| /role info | Shows some information about a role. | ![Command /role info](../../.gitbook/assets/information_command_role%20info.png) |
-| /role color | Shows the color of a role. | ![Command /role color](../../.gitbook/assets/information_command_role%20color.png) |
-| /channel-info | Shows some information about a channel. | ![Command /channel-info](../../.gitbook/assets/information_command_channel-info.png) |
-| /ping | Shows John-Bot's latency time. | ![Command /ping](../../.gitbook/assets/information_command_ping.png) |
-| /status | Shows status of John-Bot's clusters. | ![Command /status](../../.gitbook/assets/information_command_status.png) |
-| /uptime | Shows how long John-Bot has been operational. | ![Command /uptime](../../.gitbook/assets/information_command_uptime.png) |
-| /color | Shows some information about a color. | ![Command /color](../../.gitbook/assets/information_command_color.png) |
+| ------- | ----------- | ------- |
+| /bot-info | Displays some information about John-Bot. | ![/bot-info command](../../.gitbook/assets/information_command_bot-info.png) |
+| /user avatar | Displays a user's avatar. | ![/user avatar command](../../.gitbook/assets/information_command_user%20avatar.png) |
+| /user banner | Displays a user's banner. | ![/user banner command](../../.gitbook/assets/information_command_user%20banner.png) |
+| /user info | Displays some information about a user. | ![/user info command](../../.gitbook/assets/information_command_user%20info.png) |
+| /server icon | Displays the server icon. | ![/server icon command](../../.gitbook/assets/information_command_server%20icon.png) |
+| /server banner | Displays the server banner. | ![/server banner command](../../.gitbook/assets/information_command_server%20banner.png) |
+| /server info | Displays some information about the server. | ![/server info command](../../.gitbook/assets/information_command_server%20info.png) |
+| /server members | Displays some information about the server's members. | ![/server members command](../../.gitbook/assets/information_command_server%20members.png) |
+| /role info | Displays some information about a role. | ![/role info command](../../.gitbook/assets/information_command_role%20info.png) |
+| /role color | Displays a role's color. | ![/role color command](../../.gitbook/assets/information_command_role%20color.png) |
+| /channel-info | Displays some information about a channel. | ![/channel-info command](../../.gitbook/assets/information_command_channel-info.png) |
+| /ping | Displays John-Bot's latency. | ![/ping command](../../.gitbook/assets/information_command_ping.png) |
+| /status | Displays the status of John-Bot's shards. | ![/status command](../../.gitbook/assets/information_command_status.png) |
+| /uptime | Displays how long John-Bot has been running. | ![/uptime command](../../.gitbook/assets/information_command_uptime.png) |
+| /color | Displays some information about a color. | ![/color command](../../.gitbook/assets/information_command_color.png) |

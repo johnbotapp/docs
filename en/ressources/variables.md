@@ -1,18 +1,17 @@
 ---
 description: >-
-  List of available variables to use throughout the configuration of various
-  systems in John-Bot.
+  List of available variables you can use across the configuration of John-Bot's various systems.
 ---
 
 # Variables
 
 ### Date Variables
 
-| Variable    | Description                                             | Exemple    |
-| ----------- | ------------------------------------------------------- | ---------- |
-| {date}      | Displays the current date in the format : `DD/MM/YYYY`. | 04/03/2024 |
-| {date.time} | Displays the current time in the format : `HH:MM`.      | 09:22      |
-| {timestamp} | Displays the current timestamp.                         | 1741098205 |
+| Variable    | Description                                        | Example    |
+| ----------- | -------------------------------------------------- | ---------- |
+| {date}      | Displays the current date in `DD/MM/YYYY` format.  | 04/03/2024 |
+| {date.time} | Displays the current time in `HH:MM` format.       | 09:22      |
+| {timestamp} | Displays the current Unix timestamp.               | 1741098205 |
 
 ### User Variables
 
@@ -23,8 +22,8 @@ description: >-
 | {user.username}     | Displays the user's unique name (or name and tag). | exampleuser (or User#0001)                                                                  |
 | {user.global\_name} | Displays the user's display name.                  | User                                                                                        |
 | {user.nickname}     | Displays the user's nickname on the server.        | Moderator - User                                                                            |
-| {user.avatar\_url}  | Displays the link to the user's avatar.            | https://cdn.discordapp.com/avatars/958547309728256081/c83207e3ef95fb6c9198562d0d04714f.webp |
-| {user.banner\_url}  | Displays the link to the user's banner.            | https://cdn.discordapp.com/banners/958547309728256081/ebdcb6a0f0d8340a4c93549cc0925f9a.webp |
+| {user.avatar\_url}  | Displays the URL of the user's avatar.             | https://cdn.discordapp.com/avatars/958547309728256081/c83207e3ef95fb6c9198562d0d04714f.webp |
+| {user.banner\_url}  | Displays the URL of the user's banner.             | https://cdn.discordapp.com/banners/958547309728256081/ebdcb6a0f0d8340a4c93549cc0925f9a.webp |
 
 ### Server Variables
 
@@ -32,15 +31,15 @@ description: >-
 | ---------------------- | --------------------------------------------- | ----------------------------------------------------------------------------------------- |
 | {server.name}          | Displays the server name.                     | John-Bot                                                                                  |
 | {server.id}            | Displays the server ID.                       | 959269961572962314                                                                        |
-| {server.icon\_url}     | Displays the server's icon.                   | https://cdn.discordapp.com/icons/959269961572962314/01f8699526e02fd34266e07835bd1de5.webp |
-| {server.member\_count} | Displays the number of members in the server. | 100                                                                                       |
+| {server.icon\_url}     | Displays the server icon URL.                 | https://cdn.discordapp.com/icons/959269961572962314/01f8699526e02fd34266e07835bd1de5.webp |
+| {server.member\_count} | Displays the server's member count.           | 100                                                                                       |
 
 ### Panel Variables
 
-| Variable             | Description                                            | Example                  |
-| -------------------- | ------------------------------------------------------ | ------------------------ |
-| {panel.name}         | Displays the panel name.                               | Support                  |
-| {panel.reopening_at} | Displays the date at which the panel will be reopened. | January 20, 2025 8:00 AM |
+| Variable              | Description                                           | Example               |
+| --------------------- | ----------------------------------------------------- | --------------------- |
+| {panel.name}          | Displays the panel name.                              | Support               |
+| {panel.reopening\_at} | Displays the date the panel will reopen.              | January 20, 2025 7:00 AM |
 
 ### Ticket Variables
 
@@ -51,7 +50,7 @@ description: >-
 | {ticket.name}   | Displays the ticket name.   | Ticket             |
 | {ticket.number} | Displays the ticket number. | 10                 |
 
-### Level Variabless
+### Level Variables
 
 | Variable      | Description                                                  | Example      |
 | ------------- | ------------------------------------------------------------ | ------------ |
@@ -79,23 +78,23 @@ description: >-
 
 ### Twitch Variables
 
-| Variable                 | Description                                              | Example                                                                                                                                  |
-| ------------------------ | -------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
-| {stream.title}           | Displays the stream title.                               | My Awesome Twitch Stream                                                                                                                 |
-| {stream.thumbnail}       | Displays the stream preview thumbnail.                   | https://static-cdn.jtvnw.net/cf\_vods/d2nvs31859zcd8/7598d62e16e0c582f970\_minecraft\_42915955291\_1697387135/thumb/thumb0-1920x1080.jpg |
-| {stream.game}            | Displays the game being streamed.                        | Minecraft                                                                                                                                |
-| {stream.game\_icon\_url} | Displays the game cover of the stream.                   | https://www.youtube.com/watch?v=q5mUj4KBOb0                                                                                              |
-| {stream.viewer\_count}   | Displays the number of viewers watching the stream live. | 1000                                                                                                                                     |
-| {stream.url}             | Displays the stream link.                                | https://www.twitch.tv/minecraft                                                                                                          |
+| Variable                 | Description                            | Example                                                                                                                                  |
+| ------------------------ | -------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| {stream.title}           | Displays the stream title.             | My Awesome Twitch Stream                                                                                                                 |
+| {stream.thumbnail}       | Displays the stream preview.           | https://static-cdn.jtvnw.net/cf\_vods/d2nvs31859zcd8/7598d62e16e0c582f970\_minecraft\_42915955291\_1697387135/thumb/thumb0-1920x1080.jpg |
+| {stream.game}            | Displays the game being streamed.      | Minecraft                                                                                                                                |
+| {stream.game\_icon\_url} | Displays the stream's game cover art.  | https://www.youtube.com/watch?v=q5mUj4KBOb0                                                                                              |
+| {stream.viewer\_count}   | Displays the stream's viewer count.    | 1000                                                                                                                                     |
+| {stream.url}             | Displays the stream link.              | https://www.twitch.tv/minecraft                                                                                                          |
 
 ### Bluesky Variables
 
-| Variable            | Description                                | Example                                                                                                                                 |
-| ------------------- | ------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------- |
-| {profile.url}       | Displays the Bluesky profile link.         | https://bsky.app/profile/bsky.app                                                                                                       |
-| {profile.name}      | Displays the Bluesky profile display name. | Bluesky                                                                                                                                 |
-| {profile.icon\_url} | Displays the Bluesky profile icon.         | https://cdn.bsky.app/img/avatar/plain/did:plc:z72i7hdynmk6r22z27h6tvur/bafkreihagr2cmvl2jt4mgx3sppwe2it3fwolkrbtjrhcnwjk4jdijhsoze@jpeg |
-| {profile.handle}    | Displays the Bluesky profile username.     | bsky.app                                                                                                                                |
-| {post.content}      | Displays the post content.                 | Welcome to my Bluesky account!                                                                                                          |
-| {post.url}          | Displays the post link.                    | https://bsky.app/profile/bsky.app/post/3l6oveex3ii2l                                                                                    |
-| {post.id}           | Displays the post ID.                      | 3l6oveex3ii2l                                                                                                                           |
+| Variable            | Description                              | Example                                                                                                                                 |
+| ------------------- | ---------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| {profile.url}       | Displays the Bluesky profile link.       | https://bsky.app/profile/bsky.app                                                                                                       |
+| {profile.name}      | Displays the Bluesky display name.       | Bluesky                                                                                                                                 |
+| {profile.icon\_url} | Displays the Bluesky profile icon.       | https://cdn.bsky.app/img/avatar/plain/did:plc:z72i7hdynmk6r22z27h6tvur/bafkreihagr2cmvl2jt4mgx3sppwe2it3fwolkrbtjrhcnwjk4jdijhsoze@jpeg |
+| {profile.handle}    | Displays the Bluesky handle.             | bsky.app                                                                                                                                |
+| {post.content}      | Displays the post content.               | Welcome to my Bluesky account!                                                                                                          |
+| {post.url}          | Displays the post link.                  | https://bsky.app/profile/bsky.app/post/3l6oveex3ii2l                                                                                    |
+| {post.id}           | Displays the post ID.                    | 3l6oveex3ii2l                                                                                                                           |

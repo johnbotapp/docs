@@ -1,171 +1,176 @@
 ---
 description: >-
-  Here you will find information on how to configure John-Bot's progressive leveling system.
+  Here you'll find information about configuring John-Bot's leveling system.
 ---
 
-# Levels
+# Leveling
 
-**Video tutorial related to this page:** [Configure John-Bot's Level System - Tutorial #7](https://jnbt.xyz/tutorials/levels)
+**Video tutorial related to this page:** [Setting Up John-Bot's Leveling System - Tutorial #7](https://jnbt.xyz/tutorials/levels)
 
 ## :rocket: Introduction
 
-To maintain consistent activity on a Discord server, the most recommended method is to reward members with levels and ranks. Based on this concept, John-Bot offers an enhanced version with levels earned through experience points and the assignment of virtual rewards via roles when specific milestones are reached.
+To keep your Discord server active, the most effective approach is to reward your members — notably with levels and ranks. Building on this concept, John-Bot offers an enhanced leveling system where members earn experience points (XP), level up, and unlock virtual rewards in the form of roles when they hit specific milestones.
 
 ## :tools: Configuring the System
 
-### Access the Dashboard
+### Accessing the Dashboard
 
-First, go to the John-Bot dashboard through the method of your choice. Learn how to do it here: [How to Access the Dashboard](../../guide/guide.md#pushpin-access-the-dashboard)
+First, go to the John-Bot dashboard using your preferred method. Learn how: [How to access the dashboard](../../guide/guide.md#pushpin-access-the-dashboard)
 
-### Access the Settings
+### Accessing Settings
 
-Next, look for `Levels` on the right-hand column, under your server's logo and banner. You will now be on a page where you can access all the settings related to the level system.
+Next, look for `Levels` in the right-hand column, under your server's logo and banner. You'll now be on a page where you can access all settings for the leveling system.
 
-### Import from Another Application
+### Importing from Another Bot
 
-If you're currently using another application to manage your server's leveling system, you can import all your data in just a few moments using a simple command¹.
+If you're currently using another bot to manage leveling on your server, you can import all your data in seconds with a simple command¹.
 
-At the moment, only the MEE6 application is supported, but this feature may evolve to include other applications.
+Currently, only MEE6 is supported, but more bots may be added in the future.
 
 <details>
 
 <summary>Import from MEE6</summary>
 
-Before entering the command to import your leveling data from MEE6, you must make your server's leaderboard public.
+Before running the import command, you need to make your server's MEE6 leaderboard public.
 
-* To do this, access your server's leaderboard with the `/levels` command via the MEE6 app. Then log in to your Discord account on the MEE6 site and click the `Settings` button located at the top right of the page.
-* Once on your server leaderboard's settings page, enable the `Make my server's leaderboard public` option at the top of the page. Finally, save your changes.
+* To do this, open your server's leaderboard with the `/levels` command via MEE6. Then log in with your Discord account on the MEE6 website and click the `Settings` button at the top right of the page.
+* On the leaderboard settings page, enable the `Make my server's leaderboard public` option at the top. Save your changes.
 
-<img src="../../.gitbook/assets/levels_import_mee6.png" alt="Option &#x22;Make my server's leaderboard public&#x22; on the MEE6 website" data-size="original">
+<img src="../../.gitbook/assets/levels_import_mee6.png" alt="&quot;Make my server's leaderboard public&quot; option on the MEE6 website" data-size="original">
 
-Next, go to your server and enter the `/xp import` command with John-Bot, then confirm the replacement of the current data with those from MEE6.
+Next, go to your server and run the `/xp import` command with John-Bot, then confirm the data replacement.
 
-Make sure that John-Bot's level system is properly activated and configured. The import only concerns level data, without including the customization of announcements or other elements.
+Make sure John-Bot's leveling system is properly enabled and configured. The import only covers level data — it won't carry over announcement customization or other settings.
 
 </details>
 
 ## :earth_africa: Global System
 
-The leveling system works with experience points that can be earned by sending a message or spending time in a voice channel. You can set the amount of experience points gained per message or per minute, as well as a rate. A level corresponds to a milestone, achievable by accumulating a specific number of experience units.
+The leveling system is based on experience points earned by sending messages or spending time in voice channels. You can set the amount of XP gained per message or per minute, as well as a rate. Each level is a milestone unlocked by accumulating a specific amount of XP.
 
-Details on how to gain experience, as well as the experience required to unlock a level, are available in [the subpage linked to this page](levels-xp.md).
+For details on how XP is earned and the XP required to unlock each level, see [the Experience subpage](levels-xp.md).
 
 ### Level-Up Announcement
 
-When a new level is unlocked, John-Bot can instantly send a customized announcement in a designated channel.
+When a member reaches a new level, John-Bot can instantly send a customized announcement in a designated channel.
 
-* **Enable announcement:** To activate level-up announcements, check this option.
-* **Enable image:** With each announcement, an image representing the member is generated, also indicating the level reached at that moment.
+* **Enable announcement:** Toggle this to activate level-up announcements.
+* **Enable image:** With each announcement, a personalized image card is generated for the member, showing their new level.
 
-<figure><img src="../../.gitbook/assets/levels_annonce-image_exemple.png" alt=""><figcaption><p>Image of a level-up announcement</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/levels_annonce-image_exemple.png" alt=""><figcaption><p>Level-up announcement image</p></figcaption></figure>
 
-* **Channel choice:** You can choose to send the level-up announcement in the last channel where the member sent a message² by selecting `In the current channel` from the dropdown menu, or send the announcement in a specific channel, always the same for each announcement, by selecting `In a custom channel` from the dropdown menu, then specifying the channel using the second dropdown menu that appears below or to the right, depending on your device.
-* **Level-up message:** In addition to the level-up image, you can add a personalized message, compatible with [level variables](../../ressources/variables.md#level-variables).
+* **Channel choice:** You can send the announcement in the last channel where the member sent a message² by selecting `In the current channel`, or always send it to the same specific channel by selecting `In a custom channel` and then choosing the channel from the second dropdown.
+* **Level-up message:** In addition to the image, you can add a custom text message using [level variables](../../ressources/variables.md#level-variables).
 
 ### Additional Options
 
-**Experience ratio**
+**XP Ratio**
 
-This option allows you to set the amount of experience points awarded to a member per message or per minute spent in a voice channel. You can choose a range using the dropdown menu; the exact amount will be randomly determined.
+This option sets the amount of XP awarded per message or per minute in voice chat. Choose a range from the dropdown — the exact amount will be randomly determined within that range.
 
-**Maximum level :gem:**
+**Maximum Level** :gem:
 
-You can set a maximum level that will prevent members who have reached this level from gaining more experience. To disable this option, set it to `0`.
+Set a cap on levels. Members who reach this level will no longer earn XP. Set it to `0` to disable.
 
-**Voice experience :gem:**
+**Voice XP** :gem:
 
-By enabling this option, you allow your members to earn experience points in voice channels, as long as there are at least two human members in the voice channel.
+Enable this to let members earn XP for time spent in voice channels. They must be in a channel with at least one other human member (bots don't count).
 
-**Level loss upon departure**
+**Level Loss on Leave**
 
-With this option enabled, if a member leaves the server, their experience will be reset.
+When enabled, a member's XP will be reset if they leave the server. If they rejoin, they'll start from scratch.
 
-**No experience gain in ticket**
+**No XP Gain in Tickets**
 
-When this option is enabled, no experience points will be awarded to members sending messages in ticket channels.³
+When enabled, no XP is awarded for messages sent in ticket channels.³
 
-**Experience rate :gem:**
+**XP Multiplier** :gem:
 
-If you want to increase the experience gained to make it easier to access higher levels, you can choose to award experience points up to 3 times faster.
+To help members level up faster — for example, during a special event — you can award up to 3x the normal XP rate.
 
 ### Special Roles and Channels
 
-* **Bonus roles and channels:** You can set roles and channels where sent messages or minutes spent in voice chat earn more experience points. You can adjust the bonus multiplier⁴ by clicking on the number located before the role or channel name.
-* **No-gain roles and channels:** You can set roles and channels where sent messages or minutes spent in voice chat earn no experience.
+* **Bonus roles and channels:** Set roles and channels where messages or voice time earn bonus XP. You can adjust the bonus multiplier⁴ by clicking the number next to the role or channel name.
+* **No-gain roles and channels:** Set roles and channels where messages or voice time earn zero XP.
 
 ## :dart: Rewards
 
-To encourage members to reach higher levels, you can set unlockable rewards in the form of roles when a member reaches a specific level.
+To motivate members to reach higher levels, you can set up unlockable rewards — roles that are automatically assigned when a member reaches a specific level.
 
 ### Reward Unlock Announcement
 
-When a new level is reached and a reward is unlocked, John-Bot can instantly send a customized announcement in a designated channel.
+When a member reaches a new level and unlocks a reward, John-Bot can instantly send a customized announcement in a designated channel.
 
-* **Enable announcement:** To activate reward unlock announcements, check this option.
-* **Enable image:** With each announcement, an image representing the member is generated, also indicating the unlocked reward.
+* **Enable announcement:** Toggle this to activate reward unlock announcements.
+* **Enable image:** With each announcement, a personalized image card is generated, showing the unlocked reward.
 
-<figure><img src="../../.gitbook/assets/levels_récompense-image_exemple.png" alt=""><figcaption><p>Image of a reward unlock announcement</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/levels_récompense-image_exemple.png" alt=""><figcaption><p>Reward unlock announcement image</p></figcaption></figure>
 
-* **Channel choice:** You can choose to send the reward unlock announcement in the last channel where the member sent a message² by selecting `In the current channel` from the dropdown menu, or send the announcement in a specific channel, always the same for each announcement, by selecting `In a custom channel` from the dropdown menu, then specifying the channel using the second dropdown menu that appears below or to the right, depending on your device.
-* **Reward unlock message:** In addition to the reward unlock image, you can add a personalized message, compatible with [level variables](../../ressources/variables.md#level-variables).
+* **Channel choice:** You can send the announcement in the last channel where the member sent a message² by selecting `In the current channel`, or always send it to the same channel by selecting `In a custom channel` and choosing the channel from the second dropdown.
+* **Reward unlock message:** In addition to the image, you can add a custom text message using [level variables](../../ressources/variables.md#level-variables).
 
 ### Reward Role Types :gem:
 
-Reward roles are assigned when a member reaches the required level. You can choose whether a member can only have one reward role at a time on their profile by selecting `Progressive reward roles`. When a new reward is unlocked, the current role will be removed from the member's profile and replaced with the newly unlocked role. If you want the member to accumulate roles, select `Cumulative reward roles`.
+Reward roles are assigned when a member reaches the required level. You can choose between two modes:
+
+* **Progressive reward roles:** A member can only have one reward role at a time. When a new reward is unlocked, the previous role is removed and replaced by the new one.
+* **Cumulative reward roles:** The member keeps all earned reward roles, stacking them up as they progress.
 
 ### Reward Configuration
 
-To create a reward, click the button at the bottom of the page and define the following two parameters:
+To create a reward, click the button at the bottom of the page and set the following:
 
-* **Required level:** Set the required level to unlock this reward by entering it in the designated field.
-* **Reward roles:** Define the role that will be assigned as a reward when the member reaches the required level by selecting it using the corresponding dropdown menu.
+* **Required level:** Enter the level a member must reach to unlock this reward.
+* **Reward role:** Select the role that will be assigned as a reward using the dropdown.
 
 ## :bar_chart: Leaderboard
 
-Your server's leaderboard lists members in descending order based on their experience points, showing their level and accumulated experience points.  
-<br/> It can be accessed via the `leaderboard` command, which displays the top ten members. A complete version is available online.
+Your server's leaderboard ranks members in descending order by XP, showing each member's level and total experience points.
+
+You can access it via the `/leaderboard` command, which shows the top 10 members. A full version is available online.
 
 <details>
 
-<summary>Example of a leaderboard using the /leaderboard command</summary>
+<summary>Example leaderboard using /leaderboard</summary>
 
-![Example of leaderboard using the /leaderboard command](../../.gitbook/assets/levels_leaderboard_exemple.png)
+<img src="../../.gitbook/assets/levels_leaderboard_exemple.png" alt="Example leaderboard using /leaderboard" data-size="original">
 
 </details>
 
 <details>
 
-<summary>Example of the complete online leaderboard</summary>
+<summary>Example of the full online leaderboard</summary>
 
-![Example of complete online leaderboard](../../.gitbook/assets/levels_leaderboard-online_exemple.png)
+<img src="../../.gitbook/assets/levels_leaderboard-online_exemple.png" alt="Example of the full online leaderboard" data-size="original">
 
 </details>
 
-### Accessing the Server Leaderboard
+### Accessing the Leaderboard
 
-You can access the complete online leaderboard in two ways:
-* **Full URL:** The web address (URL) of a server's leaderboard is composed as follows: `https://www.johnbot.app/leaderboard/serverid`. Simply replace the `serverid` variable with your server's ID⁵.
-* **Link via a command:** You can easily obtain this link using the `/leaderboard` command.
+You can access the full online leaderboard in two ways:
 
-![Highlighting the link to the full online version from the /leaderboard command](../../.gitbook/assets/levels_leaderboard_link.png)
+* **Direct URL:** The leaderboard URL follows this format: `https://www.johnbot.app/leaderboard/serverid`. Replace `serverid` with your server's ID⁵.
+* **Link via command:** You can get this link easily by running `/leaderboard`.
+
+![Link to the full online leaderboard highlighted on the /leaderboard command](../../.gitbook/assets/levels_leaderboard_link.png)
 
 ## :wrench: Command List
 
-| Command | Description | Example |
-| ------- | ----------- | ------- |
-| /leaderboard | Shows the level leaderboard of all members. | ![Command /leaderboard](../../.gitbook/assets/levels_leaderboard_exemple.png) |
-| /rank or /level | Shows your or a member's rank. | ![Command /rank or /level](../../.gitbook/assets/levels_commande_rank.png) |
-| /xp add | Adds XP to a member. | ![Command /xp add](../../.gitbook/assets/levels_commande_xp%20add.png) |
-| /xp remove | Remove XP from a member. | ![Command /xp remove](../../.gitbook/assets/levels_commande_xp%20remove.png) |
-| /xp import | Imports level's data from others bots. |  |
-| /xp reset | Reset the level data of a member or all members of the server. | [Command /xp reset](../../.gitbook/assets/levels_commande_xp%20reset.png) |
-| /xp user | Shows a member's total XP and his level. | ![Command /ticket open](../../.gitbook/assets/levels_commande_xp%20user.png) |
-| /rewards | Shows the list of rewards that can be unlocked with the leveling system. | ![Command /ticket remove](../../.gitbook/assets/levels_commande_rewards.png) |
+| Command         | Description                                                                  | Example                                                                        |
+| --------------- | ---------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
+| /leaderboard    | Shows the server's level leaderboard.                                        | ![Command /leaderboard](../../.gitbook/assets/levels_leaderboard_exemple.png)  |
+| /rank or /level | Shows your level or another member's level.                                  | ![Command /rank or /level](../../.gitbook/assets/levels_commande_rank.png)     |
+| /xp add         | Adds XP to a member.                                                         | ![Command /xp add](<../../.gitbook/assets/levels_commande_xp add.png>)         |
+| /xp remove      | Removes XP from a member.                                                    | ![Command /xp remove](<../../.gitbook/assets/levels_commande_xp remove.png>)   |
+| /xp import      | Imports level data from another bot.                                         |                                                                                |
+| /xp reset       | Resets the level data of a member or all members on the server.              | ![Command /xp reset](<../../.gitbook/assets/levels_commande_xp reset.png>)     |
+| /xp user        | Shows a member's total XP and level.                                         | ![Command /xp user](<../../.gitbook/assets/levels_commande_xp user.png>)       |
+| /rewards        | Shows the list of unlockable rewards from the leveling system.               | ![Command /rewards](../../.gitbook/assets/levels_commande_rewards.png)         |
 
 ***
 
-1: Subject to the availability of the corresponding application  
-2: The message will be sent to the voice channel chat if the member levels up in a voice channel  
-3: Tickets must be managed with John-Bot's [ticket system](../configuration/tickets.md)  
-4: Only among the following numbers: `1.5; 2; 2.5; 3`  
-5: Find your server ID: [Where can I find my user/server/message ID?](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-user-server-message-ID)
+1: subject to the other bot's availability
+2: the message will be sent to the voice channel chat if the member levels up in a voice channel
+3: tickets must be managed with John-Bot's [ticketing system](tickets.md)
+4: limited to the following values: `1.5; 2; 2.5; 3`
+5: Find your server's ID: [Where can I find my User/Server/Message ID?](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID)

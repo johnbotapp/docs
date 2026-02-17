@@ -3,96 +3,88 @@ description: >-
   Learn everything you need to know about John-Bot's message creator system. Learn how to set it up and understand how it works.
 ---
 
-**Video tutorial related to this page:** [Create and Send an Editable Embed on Discord - Tutorial #10](https://jnbt.xyz/tutorials/embeds)
+# Message Creator
 
-## :rocket: Introduction
+**Video tutorial related to this page:** [Create and Send a Custom Embed on Discord - Tutorial #10](https://jnbt.xyz/tutorials/embeds)
 
-The message creator system allows you to send messages on behalf of John-Bot. These messages can be modified later and enhanced with various options that are not directly available in the Discord application for a regular user.
+### :rocket: Introduction
 
-## :tools: Accessing the Message Creator
+The message creator system lets you send messages on behalf of John-Bot. These messages can be edited later and enhanced with various options that are not available to regular users directly through the Discord app.
 
-To start, access the John-Bot dashboard using your preferred method. To learn how to do this, refer to this guide: [How to access the dashboard](../../guide/guide.md#pushpin-access-the-dashboard).
+### :tools: Accessing the Message Creator
 
-Next, look for the `Messages` option in the right column, located under your server's logo and banner. You will then arrive on a page where you can access all the necessary settings to create your first message.
+First, go to the John-Bot dashboard using your preferred method. Learn how: [How to access the dashboard](../../guide/guide.md#pushpin-access-the-dashboard)
 
-## :pencil: Message Settings
+Then, look for `Messages` in the right-hand column, under your server's logo and banner. You'll land on a page where you can access all the settings needed to create your first message.
 
-### Creating a Message
+### :pencil: Message Settings
 
-To create a new message, use the button at the bottom of the list of existing messages, or at the top of the page if it's your first one.
+#### Creating a Message
 
-### Duplicating an Embed
+To create a new message, use the button at the bottom of the existing message list, or at the top of the page if it's your first one.
 
-You can also create a message from an existing one to keep the same settings and customize it by duplicating it (also known as "copy-paste"). This saves you from having to reconfigure all the settings for a minor difference between the two messages. To do this, simply click on the `Duplicate` button corresponding to the desired embed and confirm your choice via the window that appears.
+#### Duplicating an Embed
 
-### Modifying a Message
+You can also create a message from an existing one to keep the same settings and customize it by duplicating it (also known as "copy-pasting"). This saves you from having to reconfigure every setting for a minor difference between two messages. Simply click the `Duplicate` button next to the desired embed and confirm your choice in the popup window.
 
-To adjust the settings of an existing message, simply click on the `Modify` button associated with the message of your choice in the list. You will then directly access the settings of the selected message to make your modifications.
+#### Editing a Message
 
-### Deleting a Message
+To adjust the settings of an existing message, simply click the `Edit` button next to the message of your choice in the list. You'll go straight to the selected message's settings to make your changes.
 
-To delete an existing message, simply click on the `Delete` button corresponding to the desired message and confirm your choice via the window that appears.
+#### Deleting a Message
 
-### Modifying a Message
+To delete an existing message, simply click the `Delete` button next to the desired message and confirm your choice in the popup window.
 
-Once in the settings of a message, you can modify many options to customize it according to your needs.
+#### Saving Changes
 
-Once the configurations are completed, simply click on the green `Save & Modify` button located at the top right of the configuration window. If you do not wish to keep your modifications, simply click on `Cancel`.
+Once in a message's settings, you can modify many options to customize it to your needs.
 
-### Saving and Sending an Embed
+When you're done configuring, click the green `Save & Edit` button at the top right of the configuration window. If you don't want to keep your changes, simply click `Cancel`.
 
-Once your modifications are completed, if your message has never been sent, you must create the corresponding embed in the predefined channel. To do this, use the green `Create` button located at the top right. You will then need to send it to the predefined channel using the `Send` button.
+#### Saving and Sending an Embed
 
-### Message Configuration
+Once your edits are done, if your message has never been sent, you need to create the corresponding embed in the predefined channel. To do so, use the green `Create` button at the top right. You'll then need to send it to the predefined channel using the `Send` button.
 
-#### Message Name
+#### Message Configuration
 
-The message name allows server administrators to organize themselves in the John-Bot dashboard. It will not be visible to members. To define it, write it in the corresponding field.
+**Message Name**
 
-#### Sending Channel
+The message name helps server administrators stay organized on the John-Bot dashboard. It won't be visible to members. To set it, type it in the corresponding field.
 
-The sending channel is the server channel in which the message will be sent. To define it, choose the desired channel using the corresponding selection menu.
+**Sending Channel**
 
-#### Sending Type
+The sending channel is the server channel where the message will be posted. To set it, choose the desired channel from the corresponding dropdown.
 
-You have the choice as to how your message will be sent. Simply select the option that best suits your needs:
+**Sending Type**
 
-- **Single-send message:** This message will only be sent once and will gradually be buried among the other messages in the channel.
+You can choose how your message will be sent. Simply select the option that best suits your needs:
 
-- **Persistent message:** Each time a new message is posted in the channel, John-Bot will resend your message so that it always remains visible and is the last one in the channel. If the message has already been sent before, only the most recent version will be kept to avoid saturating the channel.
+* **Single-send message:** This message will only be sent once and will gradually get buried among other messages in the channel.
+* **Persistent message:** Every time a new message is posted in the channel, John-Bot will re-send your message so it always stays visible and remains the last message in the channel. If the message was previously sent, only the most recent version will be kept to avoid flooding the channel.
 
-#### Text Message
+**Text Message**
 
-The text message is the text that will be displayed outside the embed, like a regular Discord user. You can use emojis and markdown¹ to customize your text. To disable the text message, leave the field blank.
+The text message is the text displayed outside the embed, like a regular Discord user's message. You can use emojis and markdown¹ to customize your text. To disable the text message, leave the field empty.
 
-![Example of a message with the text message highlighted](../../.gitbook/assets/embed_message_partie%20texte.png)
+![Example message with the text portion highlighted](<../../.gitbook/assets/embed_message_partie texte.png>)
 
-#### Embed
+**Embed**
 
-The embed is the part of the message that can include several customizable elements and will be displayed under the text message. It is impossible to send for a regular Discord user. You can use the available fields to customize your embed.
+The embed is the part of the message that can contain several customizable elements, displayed below the text message. It's impossible to send as a regular Discord user. You can use the available fields to customize your embed.
 
-![Example of a message with the embed highlighted](../../.gitbook/assets/embed_message_partie%20embed.png)
+![Example message with the embed portion highlighted](<../../.gitbook/assets/embed_message_partie embed.png>)
 
-- **Embed author icon:** You can illustrate your embed by adding an image (which can be animated) to your author, only visible when the author has a name.
+* **Embed author icon:** Illustrate your embed by adding an image (which can be animated) to your author, only visible when the author has a name.
+* **Embed author name:** Customize your embed by adding an author, which you can name as you wish.
+* **Embed author link:** Customize your embed by adding a link to an external website for the author.
+* **Embed title:** Customize your embed by adding a title.
+* **Embed description:** Customize your embed by adding a description.
+* **Embed color:** Choose a color to customize your embed using the color picker.
+* **Embed thumbnail link:** Illustrate your embed by adding a thumbnail image.
+* **Embed image link:** Illustrate your embed by adding an image.
+* **Embed footer icon:** Complete your embed with a footer image.
+* **Embed footer text:** Complete your embed with footer text.
 
-- **Embed author name:** You can customize your embed by adding an author, which you can name as you wish.
+***
 
-- **Embed author link:** You can customize your embed by adding a link to an external site to the author.
-
-- **Embed title:** You can customize your embed by adding a title.
-
-- **Embed description:** You can customize your embed by adding a description.
-
-- **Embed color:** You can choose a color to customize your embed using the selector.
-
-- **Embed thumbnail link:** You can illustrate your embed by adding a thumbnail.
-
-- **Embed image link:** You can illustrate your embed by adding an image.
-
-- **Embed footer icon:** You can complete your embed with a footer image.
-
-- **Embed footer text:** You can complete your embed with the footer.
-
----
-
-1: Discover what Markdown is: [Text Markdown 101 (Chat formatting: bold, italic, underline)](https://support.discord.com/hc/en-us/articles/210298617-Markdown-Text-101-Chat-Formatting-Bold-Italic-Underline)
+1: Learn more about Markdown: [Markdown Text 101 (Chat Formatting: Bold, Italic, Underline)](https://support.discord.com/hc/en-us/articles/210298617-Markdown-Text-101-Chat-Formatting-Bold-Italic-Underline)

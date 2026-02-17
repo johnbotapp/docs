@@ -4,24 +4,24 @@ description: >-
 ---
 
 {% hint style="info" %}
-Most of the information on this page is taken from the [MEE6 documentation available on GitHub](https://github.com/Mee6/Mee6-documentation), specifically from the [docs/levels_xp.md page](https://github.com/Mee6/Mee6-documentation/blob/master/docs/levels_xp.md).
+Most of the information on this page is sourced from the [MEE6 documentation on GitHub](https://github.com/Mee6/Mee6-documentation), specifically the [docs/levels_xp.md page](https://github.com/Mee6/Mee6-documentation/blob/master/docs/levels_xp.md).
 {% endhint %}
 
-## Calculating the experience needed to level up
+## Calculating the XP Needed to Level Up
 
 The following formula is used: `5 * (lvl ^ 2) + (50 * lvl) + 100 - xp`
 
-For:
+Where:
 * `lvl`: current level
 * `xp`: current experience
 
-## Experience required per level
+## Experience Required per Level
 
 {% hint style="warning" %}
-This table only shows the first 100 levels, but John-Bot can handle levels up to nine thousand nine hundred ninety-nine.
+This table only shows the first 100 levels. John-Bot can handle levels all the way up to 9,999.
 {% endhint %}
 
-| Level     | Experience |
+| Level     | Experience            |
 | --------- | --------------------- |
 | 0         | 0                     |
 | 1         | 100                   |

@@ -4,7 +4,7 @@ description: List of official domain names used by John-Bot
 
 # Domain Names
 
-Some individuals create domain names similar to those used by John-Bot for malicious purposes. Currently, John-Bot uses only three domain names, listed below.
+Some individuals create domain names similar to those used by John-Bot for malicious purposes. As of now, John-Bot only uses three domain names, listed below.
 
 | Domain Name                               | Usage                    | Example                                               |
 | ----------------------------------------- | ------------------------ | ----------------------------------------------------- |
@@ -12,4 +12,4 @@ Some individuals create domain names similar to those used by John-Bot for malic
 | [(www.)john-bot.app](http://john-bot.app) | Redirects to johnbot.app | [john-bot.app/](http://john-bot.app/)                 |
 | [(www.)jnbt.xyz](http://jnbt.xyz)         | Shortened links          | [jnbt.xyz/jNnLmd](http://jnbt.xyz/jNnLmd)             |
 
-All other domain names impersonating John-Bot do not belong to John-Bot and are likely managed by malicious actors.
+Any other domain name claiming to be John-Bot does not belong to John-Bot and is likely run by malicious actors.

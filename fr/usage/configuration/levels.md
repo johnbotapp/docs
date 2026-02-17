@@ -45,7 +45,7 @@ Assurez-vous que le système de niveaux de John-Bot est correctement activé et 
 
 </details>
 
-## :earth_africa: Système global
+## :earth\_africa: Système global
 
 Le système de niveaux fonctionne avec de l'expérience acquérable lors de l'envoi d'un message ou d'une minute passée dans un salon vocal. Il est possible de définir la quantité de points d'expérience gagnée par message ou minute ainsi qu'un taux. Un niveau correspond à un palier, atteignable en accumulant un nombre précis d'unités d'expérience.
 
@@ -69,14 +69,13 @@ Lorsqu'un nouveau niveau est débloqué, John-Bot permet d'envoyer instantanéme
 
 Cette option permet de définir la quantité de points d'expérience attribuée à un membre par message ou par minute passée en vocal. Vous pouvez choisir une tranche à l'aide du menu déroulant, la quantité exacte sera déterminée aléatoirement.
 
-**Niveau maximum :gem:**
+**Niveau maximum** :gem:
 
 Vous pouvez définir un niveau maximal qui empêchera les membres ayant atteint ce niveau de gagner davantage d'expérience. Pour désactiver l'option, indiquez `0`.
 
-**Expérience en vocal :gem:**
+**Expérience en vocal** :gem:
 
 En activant cette option vous autorisez vos membres à gagner des points d'experience en vocal, à condition d'être au moins deux membres humains dans le salon vocal.
-
 
 **Perte des niveaux lors du départ**
 
@@ -86,7 +85,7 @@ Avec cette option activée, si un membre quitte le serveur, son expérience sera
 
 Avec cette option activée, aucun point d'expérience ne sera attribué aux membres envoyant des messages dans des tickets.³
 
-**Taux d'experience :gem:**
+**Taux d'experience** :gem:
 
 Si vous souhaitez augmenter l'expérience gagnée pour faciliter l'accès aux niveaux supérieurs, vous pouvez choisir d'attribuer des points d'expérience jusqu'à 3 fois plus rapidement.
 
@@ -122,16 +121,17 @@ Pour créer une récompense, cliquez sur le bouton situé en bas de la page et d
 * **Niveau requis :** Définissez le niveau requis pour débloquer cette récompense en l'indiquant dans le champ prévu à cet effet.
 * **Rôles récompense :** Définissez le rôle qui sera attribué en guise de récompense lorsque le membre atteindra le niveau requis en le sélectionnant à l'aide du menu déroulant correspondant.
 
-## :bar_chart: Classement (leaderboard)
+## :bar\_chart: Classement (leaderboard)
 
-Le classement de votre serveur répertorie les membres par ordre décroissant de leurs points d'expérience, permettant de connaître leur niveau et la quantité de points d'expérience accumulée.  
-<br/> Il est accessible via la commande `leaderboard`, qui affiche les dix premiers du classement, une version complète est disponible en ligne.
+Le classement de votre serveur répertorie les membres par ordre décroissant de leurs points d'expérience, permettant de connaître leur niveau et la quantité de points d'expérience accumulée.\
+\
+Il est accessible via la commande `leaderboard`, qui affiche les dix premiers du classement, une version complète est disponible en ligne.
 
 <details>
 
 <summary>Exemple de classement avec la commande /leaderboard</summary>
 
-![Exemple de classement avec la commande /leaderboard](../../.gitbook/assets/levels_leaderboard_exemple.png)
+<img src="../../.gitbook/assets/levels_leaderboard_exemple.png" alt="Exemple de classement avec la commande /leaderboard" data-size="original">
 
 </details>
 
@@ -139,13 +139,14 @@ Le classement de votre serveur répertorie les membres par ordre décroissant de
 
 <summary>Exemple de classement complet en ligne</summary>
 
-![Exemple de classement complet en ligne](../../.gitbook/assets/levels_leaderboard-online_exemple.png)
+<img src="../../.gitbook/assets/levels_leaderboard-online_exemple.png" alt="Exemple de classement complet en ligne" data-size="original">
 
 </details>
 
 ### Accéder au classement du serveur
 
 Vous pouvez accéder au classement complet disponible en ligne de deux manières :
+
 * **URL complète :** L'adresse web (URL) du classement d'un serveur est composée ainsi : `https://www.johnbot.app/leaderboard/serverid`. Il suffit de remplacer la variable `serverid` par l'identifiant⁵ de votre serveur.
 * **Lien via une commande :** Vous pouvez obtenir ce lien facilement à l'aide de la commande `/leaderboard`.
 
@@ -153,21 +154,17 @@ Vous pouvez accéder au classement complet disponible en ligne de deux manières
 
 ## :wrench: Liste des commandes
 
-| Commande | Description | Exemple |
-| -------- | ----------- | ------- |
-| /leaderboard | Affiche le classement des niveaux des membres du serveur. | ![Commande /leaderboard](../../.gitbook/assets/levels_leaderboard_exemple.png) |
-| /rank ou /level | Affiche votre niveau ou celui d'un membre. | ![Commande /rank ou /level](../../.gitbook/assets/levels_commande_rank.png) |
-| /xp add | Ajoute de l'expérience à un membre. | ![Commande /xp add](../../.gitbook/assets/levels_commande_xp%20add.png) |
-| /xp remove | Retire de l'expérience à un membre. | ![Commande /xp remove](../../.gitbook/assets/levels_commande_xp%20remove.png) |
-| /xp import | Importe les données de niveaux d'autres robots. |  |
-| /xp reset | Réinitialise les données de niveaux d'un membre ou de tous les membres du serveur. | ![Commande /xp reset](../../.gitbook/assets/levels_commande_xp%20reset.png) |
-| /xp user | Affiche le nombre total d'expérience d'un membre et son niveau. | ![Commande /ticket open](../../.gitbook/assets/levels_commande_xp%20user.png) |
-| /rewards | Affiche la liste des récompenses pouvant être débloquées avec le système de niveaux. | ![Commande /ticket remove](../../.gitbook/assets/levels_commande_rewards.png) |
+| Commande        | Description                                                                          | Exemple                                                                        |
+| --------------- | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------ |
+| /leaderboard    | Affiche le classement des niveaux des membres du serveur.                            | ![Commande /leaderboard](../../.gitbook/assets/levels_leaderboard_exemple.png) |
+| /rank ou /level | Affiche votre niveau ou celui d'un membre.                                           | ![Commande /rank ou /level](../../.gitbook/assets/levels_commande_rank.png)    |
+| /xp add         | Ajoute de l'expérience à un membre.                                                  | ![Commande /xp add](<../../.gitbook/assets/levels_commande_xp add.png>)        |
+| /xp remove      | Retire de l'expérience à un membre.                                                  | ![Commande /xp remove](<../../.gitbook/assets/levels_commande_xp remove.png>)  |
+| /xp import      | Importe les données de niveaux d'autres robots.                                      |                                                                                |
+| /xp reset       | Réinitialise les données de niveaux d'un membre ou de tous les membres du serveur.   | ![Commande /xp reset](<../../.gitbook/assets/levels_commande_xp reset.png>)    |
+| /xp user        | Affiche le nombre total d'expérience d'un membre et son niveau.                      | ![Commande /ticket open](<../../.gitbook/assets/levels_commande_xp user.png>)  |
+| /rewards        | Affiche la liste des récompenses pouvant être débloquées avec le système de niveaux. | ![Commande /ticket remove](../../.gitbook/assets/levels_commande_rewards.png)  |
 
 ***
 
-1 : sous réserve de disponibilité de l'application en question
-2 : Le message sera envoyé dans la discussion du salon vocal si le membre passe au niveau supérieur dans un salon vocal
-3 : les tickets doivent être gérés avec le [système de tickets](../configuration/tickets.md) de John-Bot
-4 : seulement parmis les nombres suivants `1,5 ; 2 ; 2,5 ; 3`
-5 : Trouver l'identifiant de votre serveur : [Où trouver l’ID de mon compte utilisateur / serveur / message ?](https://support.discord.com/hc/fr/articles/206346498-O%C3%B9-trouver-l-ID-de-mon-compte-utilisateur-serveur-message)
+1 : sous réserve de disponibilité de l'application en question 2 : Le message sera envoyé dans la discussion du salon vocal si le membre passe au niveau supérieur dans un salon vocal 3 : les tickets doivent être gérés avec le [système de tickets](tickets.md) de John-Bot 4 : seulement parmis les nombres suivants `1,5 ; 2 ; 2,5 ; 3` 5 : Trouver l'identifiant de votre serveur : [Où trouver l’ID de mon compte utilisateur / serveur / message ?](https://support.discord.com/hc/fr/articles/206346498-O%C3%B9-trouver-l-ID-de-mon-compte-utilisateur-serveur-message)
