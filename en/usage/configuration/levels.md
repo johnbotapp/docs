@@ -1,6 +1,5 @@
 ---
-description: >-
-  Here you'll find information about configuring John-Bot's leveling system.
+description: Here you'll find information about configuring John-Bot's leveling system.
 ---
 
 # Leveling
@@ -36,7 +35,7 @@ Before running the import command, you need to make your server's MEE6 leaderboa
 * To do this, open your server's leaderboard with the `/levels` command via MEE6. Then log in with your Discord account on the MEE6 website and click the `Settings` button at the top right of the page.
 * On the leaderboard settings page, enable the `Make my server's leaderboard public` option at the top. Save your changes.
 
-<img src="../../.gitbook/assets/levels_import_mee6.png" alt="&quot;Make my server's leaderboard public&quot; option on the MEE6 website" data-size="original">
+<img src="../../.gitbook/assets/levels_import_mee6.png" alt="&#x22;Make my server&#x27;s leaderboard public&#x22; option on the MEE6 website" data-size="original">
 
 Next, go to your server and run the `/xp import` command with John-Bot, then confirm the data replacement.
 
@@ -44,7 +43,7 @@ Make sure John-Bot's leveling system is properly enabled and configured. The imp
 
 </details>
 
-## :earth_africa: Global System
+## :earth\_africa: Global System
 
 The leveling system is based on experience points earned by sending messages or spending time in voice channels. You can set the amount of XP gained per message or per minute, as well as a rate. Each level is a milestone unlocked by accumulating a specific amount of XP.
 
@@ -123,7 +122,7 @@ To create a reward, click the button at the bottom of the page and set the follo
 * **Required level:** Enter the level a member must reach to unlock this reward.
 * **Reward role:** Select the role that will be assigned as a reward using the dropdown.
 
-## :bar_chart: Leaderboard
+## :bar\_chart: Leaderboard
 
 Your server's leaderboard ranks members in descending order by XP, showing each member's level and total experience points.
 
@@ -156,21 +155,21 @@ You can access the full online leaderboard in two ways:
 
 ## :wrench: Command List
 
-| Command         | Description                                                                  | Example                                                                        |
-| --------------- | ---------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
-| /leaderboard    | Shows the server's level leaderboard.                                        | ![Command /leaderboard](../../.gitbook/assets/levels_leaderboard_exemple.png)  |
-| /rank or /level | Shows your level or another member's level.                                  | ![Command /rank or /level](../../.gitbook/assets/levels_commande_rank.png)     |
-| /xp add         | Adds XP to a member.                                                         | ![Command /xp add](<../../.gitbook/assets/levels_commande_xp add.png>)         |
-| /xp remove      | Removes XP from a member.                                                    | ![Command /xp remove](<../../.gitbook/assets/levels_commande_xp remove.png>)   |
-| /xp import      | Imports level data from another bot.                                         |                                                                                |
-| /xp reset       | Resets the level data of a member or all members on the server.              | ![Command /xp reset](<../../.gitbook/assets/levels_commande_xp reset.png>)     |
-| /xp user        | Shows a member's total XP and level.                                         | ![Command /xp user](<../../.gitbook/assets/levels_commande_xp user.png>)       |
-| /rewards        | Shows the list of unlockable rewards from the leveling system.               | ![Command /rewards](../../.gitbook/assets/levels_commande_rewards.png)         |
+| Command         | Description                                                     | Example                                                                       |
+| --------------- | --------------------------------------------------------------- | ----------------------------------------------------------------------------- |
+| /leaderboard    | Shows the server's level leaderboard.                           | ![Command /leaderboard](../../.gitbook/assets/levels_leaderboard_exemple.png) |
+| /rank or /level | Shows your level or another member's level.                     | ![Command /rank or /level](../../.gitbook/assets/levels_commande_rank.png)    |
+| /xp add         | Adds XP to a member.                                            | ![Command /xp add](<../../.gitbook/assets/levels_commande_xp add.png>)        |
+| /xp remove      | Removes XP from a member.                                       | ![Command /xp remove](<../../.gitbook/assets/levels_commande_xp remove.png>)  |
+| /xp import      | Imports level data from another bot.                            |                                                                               |
+| /xp reset       | Resets the level data of a member or all members on the server. | ![Command /xp reset](<../../.gitbook/assets/levels_commande_xp reset.png>)    |
+| /xp user        | Shows a member's total XP and level.                            | ![Command /xp user](<../../.gitbook/assets/levels_commande_xp user.png>)      |
+| /rewards        | Shows the list of unlockable rewards from the leveling system.  | ![Command /rewards](../../.gitbook/assets/levels_commande_rewards.png)        |
 
 ***
 
-1: subject to the other bot's availability
-2: the message will be sent to the voice channel chat if the member levels up in a voice channel
-3: tickets must be managed with John-Bot's [ticketing system](tickets.md)
-4: limited to the following values: `1.5; 2; 2.5; 3`
+1: subject to the other bot's availability\
+2: the message will be sent to the voice channel chat if the member levels up in a voice channel\
+3: tickets must be managed with John-Bot's [ticketing system](tickets.md)\
+4: limited to the following values: `1.5; 2; 2.5; 3`\
 5: Find your server's ID: [Where can I find my User/Server/Message ID?](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID)
