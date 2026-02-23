@@ -167,4 +167,8 @@ Vous pouvez accéder au classement complet disponible en ligne de deux manières
 
 ***
 
-1 : sous réserve de disponibilité de l'application en question 2 : Le message sera envoyé dans la discussion du salon vocal si le membre passe au niveau supérieur dans un salon vocal 3 : les tickets doivent être gérés avec le [système de tickets](tickets.md) de John-Bot 4 : seulement parmis les nombres suivants `1,5 ; 2 ; 2,5 ; 3` 5 : Trouver l'identifiant de votre serveur : [Où trouver l’ID de mon compte utilisateur / serveur / message ?](https://support.discord.com/hc/fr/articles/206346498-O%C3%B9-trouver-l-ID-de-mon-compte-utilisateur-serveur-message)
+1 : sous réserve de disponibilité de l'application en question\
+2 : Le message sera envoyé dans la discussion du salon vocal si le membre passe au niveau supérieur dans un salon vocal\
+3 : les tickets doivent être gérés avec le [système de tickets](tickets.md) de John-Bot\
+4 : seulement parmis les nombres suivants `1,5 ; 2 ; 2,5 ; 3`\
+5 : Trouver l'identifiant de votre serveur : [Où trouver l’ID de mon compte utilisateur / serveur / message ?](https://support.discord.com/hc/fr/articles/206346498-O%C3%B9-trouver-l-ID-de-mon-compte-utilisateur-serveur-message)
